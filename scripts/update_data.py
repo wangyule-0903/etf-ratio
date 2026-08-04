@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 import math
+import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -21,8 +22,8 @@ DATA_PATH = ROOT / "docs" / "data.json"
 CST = timezone(timedelta(hours=8))
 
 
-def fetch_etf_history(secid: str) -> pd.DataFrame:
-    """Pull daily adjusted close from East Money."""
+def fetch_etf_history(secid: str, retries: int = 5) -> pd.DataFrame:
+    """Pull daily adjusted close from East Money, with retries."""
     url = "https://push2his.eastmoney.com/api/qt/stock/kline/get"
     params = {
         "secid": secid,
@@ -41,21 +42,38 @@ def fetch_etf_history(secid: str) -> pd.DataFrame:
             "Chrome/120.0.0.0 Safari/537.36"
         ),
         "Referer": "https://quote.eastmoney.com/",
+        "Accept": "application/json, text/plain, */*",
     }
-    resp = requests.get(url, params=params, headers=headers, timeout=60)
-    resp.raise_for_status()
-    payload = resp.json()
-    klines = (payload.get("data") or {}).get("klines") or []
-    if not klines:
-        raise RuntimeError(f"No kline data for secid={secid}: {payload}")
 
-    rows = []
-    for line in klines:
-        parts = line.split(",")
-        rows.append({"date": parts[0], "close": float(parts[2])})
-    df = pd.DataFrame(rows)
-    df["date"] = pd.to_datetime(df["date"])
-    return df.set_index("date").sort_index()
+    last_error: Exception | None = None
+    for attempt in range(1, retries + 1):
+        try:
+            resp = requests.get(url, params=params, headers=headers, timeout=90)
+            resp.raise_for_status()
+            payload = resp.json()
+            klines = (payload.get("data") or {}).get("klines") or []
+            if not klines:
+                raise RuntimeError(f"No kline data for secid={secid}: {payload}")
+
+            rows = []
+            for line in klines:
+                parts = line.split(",")
+                rows.append({"date": parts[0], "close": float(parts[2])})
+            df = pd.DataFrame(rows)
+            df["date"] = pd.to_datetime(df["date"])
+            return df.set_index("date").sort_index()
+        except Exception as exc:  # noqa: BLE001 - retry any transient fetch failure
+            last_error = exc
+            sleep_s = min(2**attempt, 20)
+            print(
+                f"[warn] fetch {secid} attempt {attempt}/{retries} "
+                f"failed: {exc}; sleep {sleep_s}s"
+            )
+            time.sleep(sleep_s)
+
+    raise RuntimeError(
+        f"Failed to fetch secid={secid} after {retries} retries"
+    ) from last_error
 
 
 def percentile_rank(series: pd.Series, value: float) -> float:
