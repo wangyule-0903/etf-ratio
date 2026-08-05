@@ -1,9 +1,10 @@
-name: Update ETF ratio data
+name: Update index ratio data
 
 on:
   schedule:
-    # 每个交易日收盘后（北京时间约 16:30）
+    # 北京时间约 16:30 / 17:30（UTC 08:30 / 09:30），双保险防漏跑
     - cron: "30 8 * * 1-5"
+    - cron: "30 9 * * 1-5"
   workflow_dispatch:
 
 permissions:
@@ -34,6 +35,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No data changes"
           else
-            git commit -m "chore: update ETF ratio data"
+            git commit -m "chore: update index ratio data"
             git push
           fi
