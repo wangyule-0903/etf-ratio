@@ -372,12 +372,31 @@
       });
     }
 
+    async function loadJson(url) {
+      const res = await fetch(url, { cache: "no-store" });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return res.json();
+    }
+
     async function main() {
+      const bust = Date.now();
+      const sources = [
+        `data.json?t=${bust}`,
+        `https://raw.githubusercontent.com/wangyule-0903/etf-ratio/main/docs/data.json?t=${bust}`,
+        `https://cdn.jsdelivr.net/gh/wangyule-0903/etf-ratio@main/docs/data.json?t=${bust}`,
+      ];
+
       try {
-        const res = await fetch(`data.json?t=${Date.now()}`);
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const data = await res.json();
-        render(data);
+        const results = await Promise.allSettled(sources.map(loadJson));
+        const ok = results
+          .filter((r) => r.status === "fulfilled")
+          .map((r) => r.value)
+          .filter((d) => d && d.asOf && d.latest);
+
+        if (!ok.length) throw new Error("所有数据源都加载失败");
+
+        ok.sort((a, b) => String(b.asOf).localeCompare(String(a.asOf)));
+        render(ok[0]);
       } catch (err) {
         document.getElementById("app").innerHTML =
           `<div class="error">数据加载失败：${err.message}<br/>请稍后刷新，或确认 data.json 已生成。</div>`;
