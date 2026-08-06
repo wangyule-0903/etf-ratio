@@ -25,6 +25,6 @@ python scripts/update_data.py
 | ≤ 20% | 创业板相对低估，中证红利相对高估 |
 | 中间 | 相对均衡 |
 
-GitHub Actions 会在工作日自动更新 `docs/data.json`。
+GitHub Actions 会在工作日北京时间约 **16:00–19:00** 多次自动尝试更新（降低漏跑概率）。也可在仓库 Actions 页面手动 Run workflow。
 
 信号看指数；实盘可用对应 ETF 交易。仅供学习研究，不构成投资建议。
