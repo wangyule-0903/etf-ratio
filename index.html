@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f1c17" />
+  <meta name="description" content="创业板指数与中证红利指数每日比值，判断相对高低估" />
+  <title>创业板 / 中证红利 比值</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --bg0: #0f1c17;
+      --bg1: #162820;
+      --ink: #e8f2ec;
+      --muted: #93a89c;
+      --line: rgba(232, 242, 236, 0.12);
+      --chinext: #3dd6c6;
+      --dividend: #e2b15a;
+      --neutral: #8fb3a3;
+      --danger: #ff7a6e;
+      --ok: #6fdb8c;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      min-height: 100dvh;
+      font-family: "Noto Sans SC", "DM Sans", system-ui, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 600px at 10% -10%, rgba(61, 214, 198, 0.16), transparent 55%),
+        radial-gradient(900px 500px at 100% 0%, rgba(226, 177, 90, 0.14), transparent 50%),
+        linear-gradient(180deg, var(--bg0), #0b1411 70%);
+    }
+
+    .wrap {
+      width: min(720px, 100%);
+      margin: 0 auto;
+      padding: 20px 16px 40px;
+    }
+
+    header h1 {
+      margin: 0 0 6px;
+      font-family: "DM Sans", "Noto Sans SC", sans-serif;
+      font-size: clamp(1.35rem, 4.5vw, 1.85rem);
+      letter-spacing: -0.02em;
+      line-height: 1.25;
+    }
+    header p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+      line-height: 1.5;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 14px;
+      margin: 16px 0 18px;
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+
+    .panel {
+      border: 1px solid var(--line);
+      background: rgba(22, 40, 32, 0.72);
+      backdrop-filter: blur(8px);
+      border-radius: 18px;
+      padding: 18px 16px;
+    }
+
+    .ratio-row {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .ratio-value {
+      font-family: "DM Sans", sans-serif;
+      font-size: clamp(2.4rem, 10vw, 3.4rem);
+      font-weight: 700;
+      letter-spacing: -0.04em;
+      line-height: 1;
+    }
+    .ratio-label {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-bottom: 8px;
+    }
+    .pct-box { text-align: right; }
+    .pct-num {
+      font-family: "DM Sans", sans-serif;
+      font-size: 1.7rem;
+      font-weight: 700;
+      line-height: 1;
+    }
+    .pct-cap { color: var(--muted); font-size: 0.8rem; margin-top: 6px; }
+
+    .verdict {
+      margin-top: 16px;
+      padding: 14px 14px 12px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.03);
+    }
+    .verdict.bias-dividend { border-color: rgba(226, 177, 90, 0.45); background: rgba(226, 177, 90, 0.08); }
+    .verdict.bias-chinext { border-color: rgba(61, 214, 198, 0.45); background: rgba(61, 214, 198, 0.08); }
+    .verdict.bias-neutral { border-color: rgba(143, 179, 163, 0.35); }
+    .verdict h2 {
+      margin: 0 0 6px;
+      font-size: 1.05rem;
+      font-weight: 700;
+    }
+    .verdict p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.55;
+    }
+
+    .prices {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 14px;
+    }
+    .price-card {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+      background: rgba(0, 0, 0, 0.15);
+    }
+    .price-card .name { font-size: 0.8rem; color: var(--muted); }
+    .price-card .code { font-size: 0.72rem; color: var(--muted); opacity: 0.8; }
+    .price-card .px {
+      margin-top: 8px;
+      font-family: "DM Sans", sans-serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+    .tag {
+      display: inline-block;
+      margin-top: 8px;
+      font-size: 0.72rem;
+      padding: 3px 8px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+    }
+    .tag.cheap { color: var(--ok); border-color: rgba(111, 219, 140, 0.35); }
+    .tag.expensive { color: var(--danger); border-color: rgba(255, 122, 110, 0.35); }
+
+    .chart-wrap {
+      margin-top: 16px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 14px 10px 8px;
+      background: rgba(22, 40, 32, 0.55);
+    }
+    .chart-title {
+      padding: 0 6px 8px;
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+    .chart-box { position: relative; height: 240px; }
+
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 14px;
+      margin-top: 10px;
+      padding: 0 6px 4px;
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+    .dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 6px;
+    }
+
+    .rules {
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 0.82rem;
+      line-height: 1.6;
+    }
+    .rules strong { color: var(--ink); font-weight: 500; }
+
+    .error {
+      margin-top: 20px;
+      padding: 14px;
+      border-radius: 12px;
+      border: 1px solid rgba(255, 122, 110, 0.4);
+      background: rgba(255, 122, 110, 0.08);
+      color: #ffc4bf;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      margin-top: 22px;
+      color: var(--muted);
+      font-size: 0.75rem;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>创业板 / 中证红利 比值</h1>
+      <p>用指数比值判断谁相对低估、谁相对高估（非投资建议）</p>
+    </header>
+
+    <div id="app">
+      <div class="meta">加载中…</div>
+    </div>
+  </div>
+
+  <script>
+    const fmt = new Intl.NumberFormat("zh-CN", { maximumFractionDigits: 4 });
+    const fmtPx = new Intl.NumberFormat("zh-CN", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
+    function biasClass(bias) {
+      if (bias === "dividend") return "bias-dividend";
+      if (bias === "chinext") return "bias-chinext";
+      return "bias-neutral";
+    }
+
+    function tagFor(name, cheap, expensive) {
+      if (cheap === name) return '<span class="tag cheap">相对低估</span>';
+      if (expensive === name) return '<span class="tag expensive">相对高估</span>';
+      return '<span class="tag">相对中性</span>';
+    }
+
+    function render(data) {
+      const { latest, verdict, pair, stats, asOf, updatedAt, thresholds } = data;
+      const app = document.getElementById("app");
+      app.innerHTML = `
+        <div class="meta">
+          <span>行情日期：${asOf}</span>
+          <span>更新时间：${updatedAt.replace("T", " ").slice(0, 19)}</span>
+          <span>样本：${stats.start} ~ ${stats.end}（${stats.days} 日）</span>
+        </div>
+
+        <section class="panel">
+          <div class="ratio-row">
+            <div>
+              <div class="ratio-label">${pair.formula}</div>
+              <div class="ratio-value">${fmt.format(latest.ratio)}</div>
+            </div>
+            <div class="pct-box">
+              <div class="pct-num">${latest.percentile.toFixed(1)}%</div>
+              <div class="pct-cap">历史分位</div>
+            </div>
+          </div>
+
+          <div class="verdict ${biasClass(verdict.bias)}">
+            <h2>${verdict.label}</h2>
+            <p>${verdict.hint}</p>
+          </div>
+
+          <div class="prices">
+            <div class="price-card">
+              <div class="name">${pair.numerator.name}</div>
+              <div class="code">${pair.numerator.code}</div>
+              <div class="px" style="color: var(--chinext)">${fmtPx.format(latest.chinext)}</div>
+              ${tagFor(pair.numerator.name, verdict.cheap, verdict.expensive)}
+            </div>
+            <div class="price-card">
+              <div class="name">${pair.denominator.name}</div>
+              <div class="code">${pair.denominator.code}</div>
+              <div class="px" style="color: var(--dividend)">${fmtPx.format(latest.dividend)}</div>
+              ${tagFor(pair.denominator.name, verdict.cheap, verdict.expensive)}
+            </div>
+          </div>
+        </section>
+
+        <section class="chart-wrap">
+          <div class="chart-title">比值走势（越高 = 创业板相对越贵）</div>
+          <div class="chart-box"><canvas id="ratioChart"></canvas></div>
+          <div class="legend">
+            <span><i class="dot" style="background: var(--chinext)"></i>比值</span>
+            <span><i class="dot" style="background: rgba(226,177,90,.85)"></i>20% 分位 ${stats.p20}</span>
+            <span><i class="dot" style="background: rgba(255,122,110,.85)"></i>80% 分位 ${stats.p80}</span>
+          </div>
+        </section>
+
+        <div class="rules">
+          <strong>规则：</strong>
+          分位 ≥ ${thresholds.high}% → 创业板相对高估、红利相对低估；
+          分位 ≤ ${thresholds.low}% → 创业板相对低估、红利相对高估；
+          中间为相对均衡。这是相对估值，不是绝对涨跌预测。
+        </div>
+
+        <footer>
+          数据来源：腾讯/东方财富行情。页面由 GitHub Actions 交易日自动更新。仅供学习研究，不构成投资建议。
+        </footer>
+      `;
+
+      const labels = data.history.map((d) => d.date);
+      const ratios = data.history.map((d) => d.ratio);
+      const ctx = document.getElementById("ratioChart");
+
+      new Chart(ctx, {
+        type: "line",
+        data: {
+          labels,
+          datasets: [
+            {
+              label: "比值",
+              data: ratios,
+              borderColor: "#3dd6c6",
+              backgroundColor: "rgba(61, 214, 198, 0.12)",
+              borderWidth: 1.6,
+              pointRadius: 0,
+              fill: true,
+              tension: 0.15,
+            },
+            {
+              label: "20%分位",
+              data: labels.map(() => stats.p20),
+              borderColor: "rgba(226, 177, 90, 0.75)",
+              borderWidth: 1,
+              borderDash: [5, 4],
+              pointRadius: 0,
+              fill: false,
+            },
+            {
+              label: "80%分位",
+              data: labels.map(() => stats.p80),
+              borderColor: "rgba(255, 122, 110, 0.75)",
+              borderWidth: 1,
+              borderDash: [5, 4],
+              pointRadius: 0,
+              fill: false,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: { mode: "index", intersect: false },
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: (item) => `${item.dataset.label}: ${Number(item.raw).toFixed(4)}`,
+              },
+            },
+          },
+          scales: {
+            x: {
+              ticks: {
+                maxTicksLimit: 6,
+                color: "#93a89c",
+                font: { size: 10 },
+              },
+              grid: { color: "rgba(232,242,236,0.06)" },
+            },
+            y: {
+              ticks: { color: "#93a89c", font: { size: 10 } },
+              grid: { color: "rgba(232,242,236,0.06)" },
+            },
+          },
+        },
+      });
+    }
+
+    async function loadJson(url) {
+      const res = await fetch(url, { cache: "no-store" });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return res.json();
+    }
+
+    async function main() {
+      const bust = Date.now();
+      const sources = [
+        `data.json?t=${bust}`,
+        `https://raw.githubusercontent.com/wangyule-0903/etf-ratio/main/docs/data.json?t=${bust}`,
+        `https://cdn.jsdelivr.net/gh/wangyule-0903/etf-ratio@main/docs/data.json?t=${bust}`,
+      ];
+
+      try {
+        const results = await Promise.allSettled(sources.map(loadJson));
+        const ok = results
+          .filter((r) => r.status === "fulfilled")
+          .map((r) => r.value)
+          .filter((d) => d && d.asOf && d.latest);
+
+        if (!ok.length) throw new Error("所有数据源都加载失败");
+
+        ok.sort((a, b) => String(b.asOf).localeCompare(String(a.asOf)));
+        render(ok[0]);
+      } catch (err) {
+        document.getElementById("app").innerHTML =
+          `<div class="error">数据加载失败：${err.message}<br/>请稍后刷新，或确认 data.json 已生成。</div>`;
+      }
+    }
+
+    main();
+  </script>
+</body>
+</html>
