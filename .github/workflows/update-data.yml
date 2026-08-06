@@ -1,14 +1,27 @@
-name: Update index ratio data
+﻿name: Update index ratio data
 
 on:
   schedule:
-    # 北京时间约 16:30 / 17:30（UTC 08:30 / 09:30），双保险防漏跑
-    - cron: "30 8 * * 1-5"
-    - cron: "30 9 * * 1-5"
+    # Beijing 16:00~19:00 multi-slot to reduce missed GitHub schedules
+    - cron: "0 8 * * 1-5"
+    - cron: "20 8 * * 1-5"
+    - cron: "40 8 * * 1-5"
+    - cron: "0 9 * * 1-5"
+    - cron: "20 9 * * 1-5"
+    - cron: "40 9 * * 1-5"
+    - cron: "0 10 * * 1-5"
+    - cron: "30 10 * * 1-5"
+    - cron: "0 11 * * 1-5"
   workflow_dispatch:
+  repository_dispatch:
+    types: [update-ratio]
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-index-ratio
+  cancel-in-progress: false
 
 jobs:
   update:
