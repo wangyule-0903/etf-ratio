@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-01T23:15:52+08:00",
-  "asOf": "2026-09-01",
+  "updatedAt": "2026-09-02T20:26:25+08:00",
+  "asOf": "2026-09-02",
   "pair": {
     "numerator": {
       "code": "399006",
@@ -15,20 +15,20 @@
     "formula": "创业板指数 ÷ 中证红利"
   },
   "latest": {
-    "ratio": 0.5934,
-    "chinext": 3393.43,
-    "dividend": 5719.05,
-    "percentile": 85.0
+    "ratio": 0.5878,
+    "chinext": 3312.24,
+    "dividend": 5634.58,
+    "percentile": 83.9
   },
   "stats": {
-    "days": 3947,
+    "days": 3112,
     "start": "2010-06-02",
-    "end": "2026-09-01",
+    "end": "2026-09-02",
     "min": 0.2525,
     "max": 0.8647,
-    "median": 0.4395,
-    "p20": 0.3396,
-    "p80": 0.5803
+    "median": 0.4134,
+    "p20": 0.33,
+    "p80": 0.5783
   },
   "thresholds": {
     "low": 20,
@@ -43,3610 +43,3604 @@
   },
   "history": [
     {
-      "date": "2015-12-21",
-      "ratio": 0.6293,
-      "chinext": 2829.92,
-      "dividend": 4497.0
+      "date": "2012-07-13",
+      "ratio": 0.3086,
+      "chinext": 725.79,
+      "dividend": 2352.19
     },
     {
-      "date": "2015-12-22",
-      "ratio": 0.6283,
-      "chinext": 2839.85,
-      "dividend": 4520.01
+      "date": "2012-07-16",
+      "ratio": 0.2983,
+      "chinext": 691.39,
+      "dividend": 2317.42
     },
     {
-      "date": "2015-12-23",
-      "ratio": 0.6168,
-      "chinext": 2783.94,
-      "dividend": 4513.84
+      "date": "2012-07-17",
+      "ratio": 0.298,
+      "chinext": 697.0,
+      "dividend": 2339.05
     },
     {
-      "date": "2015-12-24",
-      "ratio": 0.6272,
-      "chinext": 2795.78,
-      "dividend": 4457.31
+      "date": "2012-07-18",
+      "ratio": 0.299,
+      "chinext": 702.14,
+      "dividend": 2348.46
     },
     {
-      "date": "2015-12-25",
-      "ratio": 0.6241,
-      "chinext": 2794.73,
-      "dividend": 4478.35
+      "date": "2012-07-19",
+      "ratio": 0.3012,
+      "chinext": 709.17,
+      "dividend": 2354.59
     },
     {
-      "date": "2015-12-28",
-      "ratio": 0.6263,
-      "chinext": 2735.49,
-      "dividend": 4367.54
+      "date": "2012-07-20",
+      "ratio": 0.3033,
+      "chinext": 706.25,
+      "dividend": 2328.55
     },
     {
-      "date": "2015-12-29",
-      "ratio": 0.6235,
-      "chinext": 2749.82,
-      "dividend": 4410.33
+      "date": "2012-07-23",
+      "ratio": 0.3075,
+      "chinext": 704.57,
+      "dividend": 2291.45
     },
     {
-      "date": "2015-12-30",
-      "ratio": 0.6292,
-      "chinext": 2779.51,
-      "dividend": 4417.87
+      "date": "2012-07-24",
+      "ratio": 0.3075,
+      "chinext": 706.4,
+      "dividend": 2297.45
     },
     {
-      "date": "2015-12-31",
-      "ratio": 0.6203,
-      "chinext": 2714.05,
-      "dividend": 4375.17
+      "date": "2012-07-25",
+      "ratio": 0.3103,
+      "chinext": 708.3,
+      "dividend": 2282.38
     },
     {
-      "date": "2016-01-04",
-      "ratio": 0.6126,
-      "chinext": 2491.27,
-      "dividend": 4066.85
+      "date": "2012-07-26",
+      "ratio": 0.3108,
+      "chinext": 706.72,
+      "dividend": 2273.68
     },
     {
-      "date": "2016-01-05",
-      "ratio": 0.5924,
-      "chinext": 2416.73,
-      "dividend": 4079.85
+      "date": "2012-07-27",
+      "ratio": 0.3085,
+      "chinext": 703.58,
+      "dividend": 2280.95
     },
     {
-      "date": "2016-01-06",
-      "ratio": 0.5904,
-      "chinext": 2468.37,
-      "dividend": 4181.09
+      "date": "2012-07-30",
+      "ratio": 0.3032,
+      "chinext": 688.47,
+      "dividend": 2270.86
     },
     {
-      "date": "2016-01-07",
-      "ratio": 0.5801,
-      "chinext": 2256.52,
-      "dividend": 3889.61
+      "date": "2012-07-31",
+      "ratio": 0.298,
+      "chinext": 676.96,
+      "dividend": 2271.36
     },
     {
-      "date": "2016-01-08",
-      "ratio": 0.5645,
-      "chinext": 2248.99,
-      "dividend": 3984.16
+      "date": "2012-08-01",
+      "ratio": 0.3007,
+      "chinext": 689.49,
+      "dividend": 2293.2
     },
     {
-      "date": "2016-01-11",
-      "ratio": 0.5604,
-      "chinext": 2106.36,
-      "dividend": 3758.8
+      "date": "2012-08-02",
+      "ratio": 0.304,
+      "chinext": 690.98,
+      "dividend": 2273.24
     },
     {
-      "date": "2016-01-12",
-      "ratio": 0.5715,
-      "chinext": 2147.53,
-      "dividend": 3757.79
+      "date": "2012-08-03",
+      "ratio": 0.3108,
+      "chinext": 711.92,
+      "dividend": 2290.91
     },
     {
-      "date": "2016-01-13",
-      "ratio": 0.5588,
-      "chinext": 2059.78,
-      "dividend": 3686.24
+      "date": "2012-08-06",
+      "ratio": 0.3156,
+      "chinext": 730.42,
+      "dividend": 2314.64
     },
     {
-      "date": "2016-01-14",
-      "ratio": 0.5779,
-      "chinext": 2175.01,
-      "dividend": 3763.71
+      "date": "2012-08-07",
+      "ratio": 0.3182,
+      "chinext": 736.01,
+      "dividend": 2313.22
     },
     {
-      "date": "2016-01-15",
-      "ratio": 0.5825,
-      "chinext": 2112.9,
-      "dividend": 3627.11
+      "date": "2012-08-08",
+      "ratio": 0.315,
+      "chinext": 730.07,
+      "dividend": 2317.83
     },
     {
-      "date": "2016-01-18",
-      "ratio": 0.5979,
-      "chinext": 2174.93,
-      "dividend": 3637.35
+      "date": "2012-08-09",
+      "ratio": 0.3189,
+      "chinext": 743.2,
+      "dividend": 2330.75
     },
     {
-      "date": "2016-01-19",
-      "ratio": 0.5974,
-      "chinext": 2241.7,
-      "dividend": 3752.64
+      "date": "2012-08-10",
+      "ratio": 0.3196,
+      "chinext": 743.07,
+      "dividend": 2324.64
     },
     {
-      "date": "2016-01-20",
-      "ratio": 0.5947,
-      "chinext": 2204.65,
-      "dividend": 3707.21
+      "date": "2012-08-13",
+      "ratio": 0.3193,
+      "chinext": 727.64,
+      "dividend": 2279.05
     },
     {
-      "date": "2016-01-21",
-      "ratio": 0.5868,
-      "chinext": 2112.4,
-      "dividend": 3600.07
+      "date": "2012-08-14",
+      "ratio": 0.3224,
+      "chinext": 736.35,
+      "dividend": 2283.71
     },
     {
-      "date": "2016-01-22",
-      "ratio": 0.5905,
-      "chinext": 2149.59,
-      "dividend": 3640.39
+      "date": "2012-08-15",
+      "ratio": 0.3237,
+      "chinext": 729.73,
+      "dividend": 2254.08
     },
     {
-      "date": "2016-01-25",
-      "ratio": 0.589,
-      "chinext": 2158.82,
-      "dividend": 3665.44
+      "date": "2012-08-16",
+      "ratio": 0.3218,
+      "chinext": 723.53,
+      "dividend": 2248.07
     },
     {
-      "date": "2016-01-26",
-      "ratio": 0.58,
-      "chinext": 1994.05,
-      "dividend": 3437.77
+      "date": "2012-08-17",
+      "ratio": 0.3205,
+      "chinext": 721.05,
+      "dividend": 2249.5
     },
     {
-      "date": "2016-01-27",
-      "ratio": 0.5841,
-      "chinext": 1997.46,
-      "dividend": 3419.93
+      "date": "2012-08-20",
+      "ratio": 0.3264,
+      "chinext": 730.87,
+      "dividend": 2239.03
     },
     {
-      "date": "2016-01-28",
-      "ratio": 0.5724,
-      "chinext": 1906.46,
-      "dividend": 3330.71
+      "date": "2012-08-21",
+      "ratio": 0.3333,
+      "chinext": 748.93,
+      "dividend": 2247.25
     },
     {
-      "date": "2016-01-29",
-      "ratio": 0.5812,
-      "chinext": 1994.06,
-      "dividend": 3430.87
+      "date": "2012-08-22",
+      "ratio": 0.3337,
+      "chinext": 746.85,
+      "dividend": 2238.3
     },
     {
-      "date": "2016-02-01",
-      "ratio": 0.588,
-      "chinext": 1992.69,
-      "dividend": 3388.88
+      "date": "2012-08-23",
+      "ratio": 0.3348,
+      "chinext": 750.56,
+      "dividend": 2242.05
     },
     {
-      "date": "2016-02-02",
-      "ratio": 0.5996,
-      "chinext": 2075.29,
-      "dividend": 3461.02
+      "date": "2012-08-24",
+      "ratio": 0.3305,
+      "chinext": 733.31,
+      "dividend": 2218.83
     },
     {
-      "date": "2016-02-03",
-      "ratio": 0.6063,
-      "chinext": 2090.51,
-      "dividend": 3447.94
+      "date": "2012-08-27",
+      "ratio": 0.3326,
+      "chinext": 722.57,
+      "dividend": 2172.27
     },
     {
-      "date": "2016-02-04",
-      "ratio": 0.6097,
-      "chinext": 2126.64,
-      "dividend": 3487.77
+      "date": "2012-08-28",
+      "ratio": 0.3322,
+      "chinext": 727.62,
+      "dividend": 2190.39
     },
     {
-      "date": "2016-02-05",
-      "ratio": 0.6032,
-      "chinext": 2096.99,
-      "dividend": 3476.32
+      "date": "2012-08-29",
+      "ratio": 0.3351,
+      "chinext": 726.94,
+      "dividend": 2169.64
     },
     {
-      "date": "2016-02-15",
-      "ratio": 0.6129,
-      "chinext": 2116.84,
-      "dividend": 3453.89
+      "date": "2012-08-30",
+      "ratio": 0.3236,
+      "chinext": 704.03,
+      "dividend": 2175.38
     },
     {
-      "date": "2016-02-16",
-      "ratio": 0.6191,
-      "chinext": 2201.93,
-      "dividend": 3556.87
+      "date": "2012-08-31",
+      "ratio": 0.3259,
+      "chinext": 706.62,
+      "dividend": 2168.27
     },
     {
-      "date": "2016-02-17",
-      "ratio": 0.6166,
-      "chinext": 2215.34,
-      "dividend": 3592.92
+      "date": "2012-09-03",
+      "ratio": 0.3319,
+      "chinext": 723.87,
+      "dividend": 2180.97
     },
     {
-      "date": "2016-02-18",
-      "ratio": 0.6097,
-      "chinext": 2190.91,
-      "dividend": 3593.35
+      "date": "2012-09-04",
+      "ratio": 0.3351,
+      "chinext": 722.72,
+      "dividend": 2156.7
     },
     {
-      "date": "2016-02-19",
-      "ratio": 0.6152,
-      "chinext": 2211.01,
-      "dividend": 3594.2
+      "date": "2012-09-05",
+      "ratio": 0.3405,
+      "chinext": 730.62,
+      "dividend": 2145.61
     },
     {
-      "date": "2016-02-22",
-      "ratio": 0.611,
-      "chinext": 2245.56,
-      "dividend": 3675.17
+      "date": "2012-09-06",
+      "ratio": 0.3426,
+      "chinext": 739.74,
+      "dividend": 2159.03
     },
     {
-      "date": "2016-02-23",
-      "ratio": 0.6078,
-      "chinext": 2218.12,
-      "dividend": 3649.7
+      "date": "2012-09-07",
+      "ratio": 0.337,
+      "chinext": 759.46,
+      "dividend": 2253.37
     },
     {
-      "date": "2016-02-24",
-      "ratio": 0.5995,
-      "chinext": 2203.74,
-      "dividend": 3675.67
+      "date": "2012-09-10",
+      "ratio": 0.3373,
+      "chinext": 762.31,
+      "dividend": 2260.05
     },
     {
-      "date": "2016-02-25",
-      "ratio": 0.591,
-      "chinext": 2037.14,
-      "dividend": 3447.18
+      "date": "2012-09-11",
+      "ratio": 0.3388,
+      "chinext": 761.73,
+      "dividend": 2248.61
     },
     {
-      "date": "2016-02-26",
-      "ratio": 0.5784,
-      "chinext": 2014.92,
-      "dividend": 3483.46
+      "date": "2012-09-12",
+      "ratio": 0.3383,
+      "chinext": 762.51,
+      "dividend": 2254.18
     },
     {
-      "date": "2016-02-29",
-      "ratio": 0.5538,
-      "chinext": 1880.15,
-      "dividend": 3395.02
+      "date": "2012-09-13",
+      "ratio": 0.335,
+      "chinext": 749.89,
+      "dividend": 2238.32
     },
     {
-      "date": "2016-03-01",
-      "ratio": 0.5589,
-      "chinext": 1934.92,
-      "dividend": 3462.3
+      "date": "2012-09-14",
+      "ratio": 0.3298,
+      "chinext": 744.46,
+      "dividend": 2257.25
     },
     {
-      "date": "2016-03-02",
-      "ratio": 0.5575,
-      "chinext": 2017.6,
-      "dividend": 3618.93
+      "date": "2012-09-17",
+      "ratio": 0.328,
+      "chinext": 724.15,
+      "dividend": 2207.48
     },
     {
-      "date": "2016-03-03",
-      "ratio": 0.554,
-      "chinext": 2007.08,
-      "dividend": 3622.67
-    },
-    {
-      "date": "2016-03-04",
-      "ratio": 0.5254,
-      "chinext": 1907.04,
-      "dividend": 3629.48
-    },
-    {
-      "date": "2016-03-07",
-      "ratio": 0.5326,
-      "chinext": 1953.33,
-      "dividend": 3667.6
-    },
-    {
-      "date": "2016-03-08",
-      "ratio": 0.5464,
-      "chinext": 2002.19,
-      "dividend": 3664.49
-    },
-    {
-      "date": "2016-03-09",
-      "ratio": 0.5459,
-      "chinext": 1970.81,
-      "dividend": 3610.14
-    },
-    {
-      "date": "2016-03-10",
-      "ratio": 0.5442,
-      "chinext": 1936.97,
-      "dividend": 3559.59
-    },
-    {
-      "date": "2016-03-11",
-      "ratio": 0.5437,
-      "chinext": 1934.87,
-      "dividend": 3558.54
-    },
-    {
-      "date": "2016-03-14",
-      "ratio": 0.5587,
-      "chinext": 2023.13,
-      "dividend": 3621.37
-    },
-    {
-      "date": "2016-03-15",
-      "ratio": 0.5506,
-      "chinext": 1996.92,
-      "dividend": 3626.73
-    },
-    {
-      "date": "2016-03-16",
-      "ratio": 0.5438,
-      "chinext": 1977.54,
-      "dividend": 3636.61
-    },
-    {
-      "date": "2016-03-17",
-      "ratio": 0.567,
-      "chinext": 2087.29,
-      "dividend": 3681.23
-    },
-    {
-      "date": "2016-03-18",
-      "ratio": 0.5825,
-      "chinext": 2177.87,
-      "dividend": 3738.71
-    },
-    {
-      "date": "2016-03-21",
-      "ratio": 0.5864,
-      "chinext": 2227.03,
-      "dividend": 3797.98
-    },
-    {
-      "date": "2016-03-22",
-      "ratio": 0.5874,
-      "chinext": 2221.7,
-      "dividend": 3782.14
-    },
-    {
-      "date": "2016-03-23",
-      "ratio": 0.5976,
-      "chinext": 2259.11,
-      "dividend": 3780.23
-    },
-    {
-      "date": "2016-03-24",
-      "ratio": 0.5955,
-      "chinext": 2219.77,
-      "dividend": 3727.64
-    },
-    {
-      "date": "2016-03-25",
-      "ratio": 0.5901,
-      "chinext": 2216.09,
-      "dividend": 3755.71
-    },
-    {
-      "date": "2016-03-28",
-      "ratio": 0.5878,
-      "chinext": 2199.69,
-      "dividend": 3742.04
-    },
-    {
-      "date": "2016-03-29",
-      "ratio": 0.5815,
-      "chinext": 2152.55,
-      "dividend": 3702.02
-    },
-    {
-      "date": "2016-03-30",
-      "ratio": 0.5934,
-      "chinext": 2248.78,
-      "dividend": 3789.71
-    },
-    {
-      "date": "2016-03-31",
-      "ratio": 0.5901,
-      "chinext": 2238.29,
-      "dividend": 3793.31
-    },
-    {
-      "date": "2016-04-01",
-      "ratio": 0.5808,
-      "chinext": 2205.37,
-      "dividend": 3796.8
-    },
-    {
-      "date": "2016-04-05",
-      "ratio": 0.5909,
-      "chinext": 2279.52,
-      "dividend": 3857.54
-    },
-    {
-      "date": "2016-04-06",
-      "ratio": 0.5956,
-      "chinext": 2297.04,
-      "dividend": 3856.49
-    },
-    {
-      "date": "2016-04-07",
-      "ratio": 0.5917,
-      "chinext": 2248.68,
-      "dividend": 3800.11
-    },
-    {
-      "date": "2016-04-08",
-      "ratio": 0.5908,
-      "chinext": 2229.93,
-      "dividend": 3774.3
-    },
-    {
-      "date": "2016-04-11",
-      "ratio": 0.5958,
-      "chinext": 2283.14,
-      "dividend": 3831.98
-    },
-    {
-      "date": "2016-04-12",
-      "ratio": 0.5932,
-      "chinext": 2264.02,
-      "dividend": 3816.39
-    },
-    {
-      "date": "2016-04-13",
-      "ratio": 0.5929,
-      "chinext": 2294.01,
-      "dividend": 3868.99
-    },
-    {
-      "date": "2016-04-14",
-      "ratio": 0.5987,
-      "chinext": 2324.39,
-      "dividend": 3882.55
-    },
-    {
-      "date": "2016-04-15",
-      "ratio": 0.5965,
-      "chinext": 2309.68,
-      "dividend": 3872.15
-    },
-    {
-      "date": "2016-04-18",
-      "ratio": 0.5913,
-      "chinext": 2265.59,
-      "dividend": 3831.48
-    },
-    {
-      "date": "2016-04-19",
-      "ratio": 0.5917,
-      "chinext": 2272.52,
-      "dividend": 3840.95
-    },
-    {
-      "date": "2016-04-20",
-      "ratio": 0.5714,
-      "chinext": 2145.24,
-      "dividend": 3754.13
-    },
-    {
-      "date": "2016-04-21",
-      "ratio": 0.5648,
-      "chinext": 2110.16,
-      "dividend": 3736.36
-    },
-    {
-      "date": "2016-04-22",
-      "ratio": 0.569,
-      "chinext": 2136.92,
-      "dividend": 3755.87
-    },
-    {
-      "date": "2016-04-25",
-      "ratio": 0.5658,
-      "chinext": 2126.83,
-      "dividend": 3758.97
-    },
-    {
-      "date": "2016-04-26",
-      "ratio": 0.5705,
-      "chinext": 2155.7,
-      "dividend": 3778.83
-    },
-    {
-      "date": "2016-04-27",
-      "ratio": 0.5702,
-      "chinext": 2146.61,
-      "dividend": 3764.98
-    },
-    {
-      "date": "2016-04-28",
-      "ratio": 0.5736,
-      "chinext": 2155.23,
-      "dividend": 3757.62
-    },
-    {
-      "date": "2016-04-29",
-      "ratio": 0.5701,
-      "chinext": 2138.74,
-      "dividend": 3751.26
-    },
-    {
-      "date": "2016-05-03",
-      "ratio": 0.5808,
-      "chinext": 2217.23,
-      "dividend": 3817.76
-    },
-    {
-      "date": "2016-05-04",
-      "ratio": 0.581,
-      "chinext": 2211.02,
-      "dividend": 3805.69
-    },
-    {
-      "date": "2016-05-05",
-      "ratio": 0.5842,
-      "chinext": 2224.09,
-      "dividend": 3807.25
-    },
-    {
-      "date": "2016-05-06",
-      "ratio": 0.5751,
-      "chinext": 2129.19,
-      "dividend": 3702.3
-    },
-    {
-      "date": "2016-05-09",
-      "ratio": 0.5683,
-      "chinext": 2053.6,
-      "dividend": 3613.31
-    },
-    {
-      "date": "2016-05-10",
-      "ratio": 0.5667,
-      "chinext": 2054.22,
-      "dividend": 3624.84
-    },
-    {
-      "date": "2016-05-11",
-      "ratio": 0.5582,
-      "chinext": 2034.93,
-      "dividend": 3645.76
-    },
-    {
-      "date": "2016-05-12",
-      "ratio": 0.5574,
-      "chinext": 2034.56,
-      "dividend": 3650.12
-    },
-    {
-      "date": "2016-05-13",
-      "ratio": 0.556,
-      "chinext": 2025.22,
-      "dividend": 3642.23
-    },
-    {
-      "date": "2016-05-16",
-      "ratio": 0.5614,
-      "chinext": 2057.86,
-      "dividend": 3665.3
-    },
-    {
-      "date": "2016-05-17",
-      "ratio": 0.5704,
-      "chinext": 2081.44,
-      "dividend": 3648.9
-    },
-    {
-      "date": "2016-05-18",
-      "ratio": 0.5613,
-      "chinext": 2020.47,
-      "dividend": 3599.62
-    },
-    {
-      "date": "2016-05-19",
-      "ratio": 0.5665,
-      "chinext": 2037.4,
-      "dividend": 3596.54
-    },
-    {
-      "date": "2016-05-20",
-      "ratio": 0.5721,
-      "chinext": 2065.3,
-      "dividend": 3610.31
-    },
-    {
-      "date": "2016-05-23",
-      "ratio": 0.5783,
-      "chinext": 2098.23,
-      "dividend": 3628.11
-    },
-    {
-      "date": "2016-05-24",
-      "ratio": 0.5768,
-      "chinext": 2075.51,
-      "dividend": 3598.55
-    },
-    {
-      "date": "2016-05-25",
-      "ratio": 0.5742,
-      "chinext": 2067.25,
-      "dividend": 3600.11
-    },
-    {
-      "date": "2016-05-26",
-      "ratio": 0.5782,
-      "chinext": 2086.01,
-      "dividend": 3607.81
-    },
-    {
-      "date": "2016-05-27",
-      "ratio": 0.5722,
-      "chinext": 2069.89,
-      "dividend": 3617.15
-    },
-    {
-      "date": "2016-05-30",
-      "ratio": 0.569,
-      "chinext": 2058.52,
-      "dividend": 3617.97
-    },
-    {
-      "date": "2016-05-31",
-      "ratio": 0.5806,
-      "chinext": 2159.8,
-      "dividend": 3720.26
-    },
-    {
-      "date": "2016-06-01",
-      "ratio": 0.5833,
-      "chinext": 2168.82,
-      "dividend": 3718.37
-    },
-    {
-      "date": "2016-06-02",
-      "ratio": 0.5873,
-      "chinext": 2188.56,
-      "dividend": 3726.49
-    },
-    {
-      "date": "2016-06-03",
-      "ratio": 0.5889,
-      "chinext": 2204.97,
-      "dividend": 3744.39
-    },
-    {
-      "date": "2016-06-06",
-      "ratio": 0.5874,
-      "chinext": 2199.3,
-      "dividend": 3744.23
-    },
-    {
-      "date": "2016-06-07",
-      "ratio": 0.5879,
-      "chinext": 2196.73,
-      "dividend": 3736.48
-    },
-    {
-      "date": "2016-06-08",
-      "ratio": 0.5892,
-      "chinext": 2186.54,
-      "dividend": 3711.11
-    },
-    {
-      "date": "2016-06-13",
-      "ratio": 0.5697,
-      "chinext": 2054.71,
-      "dividend": 3606.91
-    },
-    {
-      "date": "2016-06-14",
-      "ratio": 0.5692,
-      "chinext": 2058.31,
-      "dividend": 3616.09
-    },
-    {
-      "date": "2016-06-15",
-      "ratio": 0.5805,
-      "chinext": 2128.8,
-      "dividend": 3667.38
-    },
-    {
-      "date": "2016-06-16",
-      "ratio": 0.5762,
-      "chinext": 2101.42,
-      "dividend": 3647.14
-    },
-    {
-      "date": "2016-06-17",
-      "ratio": 0.5775,
-      "chinext": 2122.89,
-      "dividend": 3675.94
-    },
-    {
-      "date": "2016-06-20",
-      "ratio": 0.5765,
-      "chinext": 2119.63,
-      "dividend": 3676.93
-    },
-    {
-      "date": "2016-06-21",
-      "ratio": 0.5706,
-      "chinext": 2092.0,
-      "dividend": 3666.45
-    },
-    {
-      "date": "2016-06-22",
-      "ratio": 0.58,
-      "chinext": 2144.82,
-      "dividend": 3697.82
-    },
-    {
-      "date": "2016-06-23",
-      "ratio": 0.5819,
-      "chinext": 2137.49,
-      "dividend": 3673.01
-    },
-    {
-      "date": "2016-06-24",
-      "ratio": 0.5873,
-      "chinext": 2127.36,
-      "dividend": 3622.3
-    },
-    {
-      "date": "2016-06-27",
-      "ratio": 0.597,
-      "chinext": 2191.81,
-      "dividend": 3671.12
-    },
-    {
-      "date": "2016-06-28",
-      "ratio": 0.6005,
-      "chinext": 2216.71,
-      "dividend": 3691.74
-    },
-    {
-      "date": "2016-06-29",
-      "ratio": 0.5967,
-      "chinext": 2209.79,
-      "dividend": 3703.2
-    },
-    {
-      "date": "2016-06-30",
-      "ratio": 0.6015,
-      "chinext": 2227.79,
-      "dividend": 3703.5
-    },
-    {
-      "date": "2016-07-01",
-      "ratio": 0.5965,
-      "chinext": 2211.18,
-      "dividend": 3706.91
-    },
-    {
-      "date": "2016-07-04",
-      "ratio": 0.5978,
-      "chinext": 2248.71,
-      "dividend": 3761.78
-    },
-    {
-      "date": "2016-07-05",
-      "ratio": 0.5962,
-      "chinext": 2246.02,
-      "dividend": 3767.15
-    },
-    {
-      "date": "2016-07-06",
-      "ratio": 0.593,
-      "chinext": 2241.56,
-      "dividend": 3779.89
-    },
-    {
-      "date": "2016-07-07",
-      "ratio": 0.5939,
-      "chinext": 2233.92,
-      "dividend": 3761.17
-    },
-    {
-      "date": "2016-07-08",
-      "ratio": 0.5998,
-      "chinext": 2239.0,
-      "dividend": 3732.62
-    },
-    {
-      "date": "2016-07-11",
-      "ratio": 0.5926,
-      "chinext": 2218.59,
-      "dividend": 3743.67
-    },
-    {
-      "date": "2016-07-12",
-      "ratio": 0.5868,
-      "chinext": 2247.35,
-      "dividend": 3829.65
-    },
-    {
-      "date": "2016-07-13",
-      "ratio": 0.595,
-      "chinext": 2285.37,
-      "dividend": 3841.24
-    },
-    {
-      "date": "2016-07-14",
-      "ratio": 0.5995,
-      "chinext": 2293.08,
-      "dividend": 3824.85
-    },
-    {
-      "date": "2016-07-15",
-      "ratio": 0.5908,
-      "chinext": 2263.78,
-      "dividend": 3831.73
-    },
-    {
-      "date": "2016-07-18",
-      "ratio": 0.5863,
-      "chinext": 2249.87,
-      "dividend": 3837.38
-    },
-    {
-      "date": "2016-07-19",
-      "ratio": 0.5957,
-      "chinext": 2273.72,
-      "dividend": 3816.88
-    },
-    {
-      "date": "2016-07-20",
-      "ratio": 0.5962,
-      "chinext": 2268.53,
-      "dividend": 3805.19
-    },
-    {
-      "date": "2016-07-21",
-      "ratio": 0.5919,
-      "chinext": 2265.13,
-      "dividend": 3826.64
-    },
-    {
-      "date": "2016-07-22",
-      "ratio": 0.5945,
-      "chinext": 2250.0,
-      "dividend": 3784.73
-    },
-    {
-      "date": "2016-07-25",
-      "ratio": 0.5911,
-      "chinext": 2245.89,
-      "dividend": 3799.63
-    },
-    {
-      "date": "2016-07-26",
-      "ratio": 0.5919,
-      "chinext": 2279.55,
-      "dividend": 3850.93
-    },
-    {
-      "date": "2016-07-27",
-      "ratio": 0.5679,
-      "chinext": 2155.39,
-      "dividend": 3795.18
-    },
-    {
-      "date": "2016-07-28",
-      "ratio": 0.5566,
-      "chinext": 2139.74,
-      "dividend": 3844.06
-    },
-    {
-      "date": "2016-07-29",
-      "ratio": 0.5526,
-      "chinext": 2122.41,
-      "dividend": 3840.53
-    },
-    {
-      "date": "2016-08-01",
-      "ratio": 0.5515,
-      "chinext": 2099.18,
-      "dividend": 3806.07
-    },
-    {
-      "date": "2016-08-02",
-      "ratio": 0.5531,
-      "chinext": 2113.21,
-      "dividend": 3820.77
-    },
-    {
-      "date": "2016-08-03",
-      "ratio": 0.5505,
-      "chinext": 2108.31,
-      "dividend": 3830.02
-    },
-    {
-      "date": "2016-08-04",
-      "ratio": 0.5549,
-      "chinext": 2129.65,
-      "dividend": 3837.96
-    },
-    {
-      "date": "2016-08-05",
-      "ratio": 0.5491,
-      "chinext": 2109.05,
-      "dividend": 3840.74
-    },
-    {
-      "date": "2016-08-08",
-      "ratio": 0.549,
-      "chinext": 2130.59,
-      "dividend": 3880.96
-    },
-    {
-      "date": "2016-08-09",
-      "ratio": 0.5516,
-      "chinext": 2154.5,
-      "dividend": 3905.85
-    },
-    {
-      "date": "2016-08-10",
-      "ratio": 0.5496,
-      "chinext": 2137.0,
-      "dividend": 3888.14
-    },
-    {
-      "date": "2016-08-11",
-      "ratio": 0.5432,
-      "chinext": 2103.4,
-      "dividend": 3872.53
-    },
-    {
-      "date": "2016-08-12",
-      "ratio": 0.5382,
-      "chinext": 2123.84,
-      "dividend": 3946.2
-    },
-    {
-      "date": "2016-08-15",
-      "ratio": 0.5424,
-      "chinext": 2193.21,
-      "dividend": 4043.63
-    },
-    {
-      "date": "2016-08-16",
-      "ratio": 0.5466,
-      "chinext": 2201.1,
-      "dividend": 4026.59
-    },
-    {
-      "date": "2016-08-17",
-      "ratio": 0.5484,
-      "chinext": 2208.2,
-      "dividend": 4026.45
-    },
-    {
-      "date": "2016-08-18",
-      "ratio": 0.548,
-      "chinext": 2201.59,
-      "dividend": 4017.65
-    },
-    {
-      "date": "2016-08-19",
-      "ratio": 0.5481,
-      "chinext": 2204.56,
-      "dividend": 4022.52
-    },
-    {
-      "date": "2016-08-22",
-      "ratio": 0.5421,
-      "chinext": 2167.4,
-      "dividend": 3997.93
-    },
-    {
-      "date": "2016-08-23",
-      "ratio": 0.5434,
-      "chinext": 2174.16,
-      "dividend": 4000.9
-    },
-    {
-      "date": "2016-08-24",
-      "ratio": 0.5495,
-      "chinext": 2192.17,
-      "dividend": 3989.04
-    },
-    {
-      "date": "2016-08-25",
-      "ratio": 0.5494,
-      "chinext": 2180.66,
-      "dividend": 3969.47
-    },
-    {
-      "date": "2016-08-26",
-      "ratio": 0.5527,
-      "chinext": 2189.75,
-      "dividend": 3962.14
-    },
-    {
-      "date": "2016-08-29",
-      "ratio": 0.5536,
-      "chinext": 2193.2,
-      "dividend": 3961.38
-    },
-    {
-      "date": "2016-08-30",
-      "ratio": 0.5532,
-      "chinext": 2195.53,
-      "dividend": 3969.12
-    },
-    {
-      "date": "2016-08-31",
-      "ratio": 0.5498,
-      "chinext": 2191.76,
-      "dividend": 3986.49
-    },
-    {
-      "date": "2016-09-01",
-      "ratio": 0.552,
-      "chinext": 2181.33,
-      "dividend": 3951.59
-    },
-    {
-      "date": "2016-09-02",
-      "ratio": 0.5481,
-      "chinext": 2170.86,
-      "dividend": 3960.57
-    },
-    {
-      "date": "2016-09-05",
-      "ratio": 0.5489,
-      "chinext": 2182.69,
-      "dividend": 3976.52
-    },
-    {
-      "date": "2016-09-06",
-      "ratio": 0.5544,
-      "chinext": 2222.84,
-      "dividend": 4009.48
-    },
-    {
-      "date": "2016-09-07",
-      "ratio": 0.5513,
-      "chinext": 2212.05,
-      "dividend": 4012.75
-    },
-    {
-      "date": "2016-09-08",
-      "ratio": 0.5533,
-      "chinext": 2223.47,
-      "dividend": 4018.29
-    },
-    {
-      "date": "2016-09-09",
-      "ratio": 0.5528,
-      "chinext": 2202.97,
-      "dividend": 3984.96
-    },
-    {
-      "date": "2016-09-12",
-      "ratio": 0.5485,
-      "chinext": 2145.56,
-      "dividend": 3912.03
-    },
-    {
-      "date": "2016-09-13",
-      "ratio": 0.5476,
-      "chinext": 2145.87,
-      "dividend": 3918.39
-    },
-    {
-      "date": "2016-09-14",
-      "ratio": 0.5527,
-      "chinext": 2144.56,
-      "dividend": 3880.15
-    },
-    {
-      "date": "2016-09-19",
-      "ratio": 0.5524,
-      "chinext": 2165.21,
-      "dividend": 3919.3
-    },
-    {
-      "date": "2016-09-20",
-      "ratio": 0.5502,
-      "chinext": 2158.43,
-      "dividend": 3923.16
-    },
-    {
-      "date": "2016-09-21",
-      "ratio": 0.5506,
-      "chinext": 2162.13,
-      "dividend": 3926.53
-    },
-    {
-      "date": "2016-09-22",
-      "ratio": 0.5472,
-      "chinext": 2168.42,
-      "dividend": 3962.79
-    },
-    {
-      "date": "2016-09-23",
-      "ratio": 0.5467,
-      "chinext": 2156.51,
-      "dividend": 3944.34
-    },
-    {
-      "date": "2016-09-26",
-      "ratio": 0.5466,
-      "chinext": 2122.9,
-      "dividend": 3883.81
-    },
-    {
-      "date": "2016-09-27",
-      "ratio": 0.5478,
-      "chinext": 2140.8,
-      "dividend": 3907.89
-    },
-    {
-      "date": "2016-09-28",
-      "ratio": 0.5484,
-      "chinext": 2139.63,
-      "dividend": 3901.61
-    },
-    {
-      "date": "2016-09-29",
-      "ratio": 0.5482,
-      "chinext": 2146.18,
-      "dividend": 3914.99
-    },
-    {
-      "date": "2016-09-30",
-      "ratio": 0.5477,
-      "chinext": 2149.9,
-      "dividend": 3925.2
-    },
-    {
-      "date": "2016-10-10",
-      "ratio": 0.5553,
-      "chinext": 2208.47,
-      "dividend": 3977.03
-    },
-    {
-      "date": "2016-10-11",
-      "ratio": 0.5545,
-      "chinext": 2210.86,
-      "dividend": 3987.3
-    },
-    {
-      "date": "2016-10-12",
-      "ratio": 0.5554,
-      "chinext": 2209.69,
-      "dividend": 3978.85
-    },
-    {
-      "date": "2016-10-13",
-      "ratio": 0.5536,
-      "chinext": 2208.57,
-      "dividend": 3989.81
-    },
-    {
-      "date": "2016-10-14",
-      "ratio": 0.5499,
-      "chinext": 2194.23,
-      "dividend": 3990.18
-    },
-    {
-      "date": "2016-10-17",
-      "ratio": 0.5472,
-      "chinext": 2167.86,
-      "dividend": 3961.75
-    },
-    {
-      "date": "2016-10-18",
-      "ratio": 0.5475,
-      "chinext": 2198.14,
-      "dividend": 4014.97
-    },
-    {
-      "date": "2016-10-19",
-      "ratio": 0.5451,
-      "chinext": 2184.91,
-      "dividend": 4007.94
-    },
-    {
-      "date": "2016-10-20",
-      "ratio": 0.5466,
-      "chinext": 2193.26,
-      "dividend": 4012.68
-    },
-    {
-      "date": "2016-10-21",
-      "ratio": 0.541,
-      "chinext": 2181.0,
-      "dividend": 4031.25
-    },
-    {
-      "date": "2016-10-24",
-      "ratio": 0.5407,
-      "chinext": 2200.8,
-      "dividend": 4070.31
-    },
-    {
-      "date": "2016-10-25",
-      "ratio": 0.5385,
-      "chinext": 2200.21,
-      "dividend": 4086.01
-    },
-    {
-      "date": "2016-10-26",
-      "ratio": 0.5383,
-      "chinext": 2184.49,
-      "dividend": 4058.09
-    },
-    {
-      "date": "2016-10-27",
-      "ratio": 0.5385,
-      "chinext": 2182.48,
-      "dividend": 4052.55
-    },
-    {
-      "date": "2016-10-28",
-      "ratio": 0.5375,
-      "chinext": 2165.43,
-      "dividend": 4028.79
-    },
-    {
-      "date": "2016-10-31",
-      "ratio": 0.5357,
-      "chinext": 2159.76,
-      "dividend": 4031.49
-    },
-    {
-      "date": "2016-11-01",
-      "ratio": 0.5363,
-      "chinext": 2176.45,
-      "dividend": 4058.22
-    },
-    {
-      "date": "2016-11-02",
-      "ratio": 0.5339,
-      "chinext": 2146.4,
-      "dividend": 4020.4
-    },
-    {
-      "date": "2016-11-03",
-      "ratio": 0.5319,
-      "chinext": 2153.18,
-      "dividend": 4048.25
-    },
-    {
-      "date": "2016-11-04",
-      "ratio": 0.5317,
-      "chinext": 2145.23,
-      "dividend": 4034.31
-    },
-    {
-      "date": "2016-11-07",
-      "ratio": 0.527,
-      "chinext": 2130.3,
-      "dividend": 4042.0
-    },
-    {
-      "date": "2016-11-08",
-      "ratio": 0.5293,
-      "chinext": 2150.3,
-      "dividend": 4062.19
-    },
-    {
-      "date": "2016-11-09",
-      "ratio": 0.5257,
-      "chinext": 2123.84,
-      "dividend": 4040.18
-    },
-    {
-      "date": "2016-11-10",
-      "ratio": 0.5238,
-      "chinext": 2143.32,
-      "dividend": 4092.1
-    },
-    {
-      "date": "2016-11-11",
-      "ratio": 0.5222,
-      "chinext": 2147.11,
-      "dividend": 4111.7
-    },
-    {
-      "date": "2016-11-14",
-      "ratio": 0.5255,
-      "chinext": 2161.69,
-      "dividend": 4113.85
-    },
-    {
-      "date": "2016-11-15",
-      "ratio": 0.5294,
-      "chinext": 2179.3,
-      "dividend": 4116.47
-    },
-    {
-      "date": "2016-11-16",
-      "ratio": 0.5305,
-      "chinext": 2182.47,
-      "dividend": 4113.78
-    },
-    {
-      "date": "2016-11-17",
-      "ratio": 0.5234,
-      "chinext": 2163.04,
-      "dividend": 4132.84
-    },
-    {
-      "date": "2016-11-18",
-      "ratio": 0.5236,
-      "chinext": 2157.96,
-      "dividend": 4121.28
-    },
-    {
-      "date": "2016-11-21",
-      "ratio": 0.5183,
-      "chinext": 2152.6,
-      "dividend": 4153.44
-    },
-    {
-      "date": "2016-11-22",
-      "ratio": 0.5211,
-      "chinext": 2177.65,
-      "dividend": 4178.86
-    },
-    {
-      "date": "2016-11-23",
-      "ratio": 0.5164,
-      "chinext": 2165.71,
-      "dividend": 4193.84
-    },
-    {
-      "date": "2016-11-24",
-      "ratio": 0.5089,
-      "chinext": 2146.63,
-      "dividend": 4217.78
-    },
-    {
-      "date": "2016-11-25",
-      "ratio": 0.5094,
-      "chinext": 2167.53,
-      "dividend": 4254.82
-    },
-    {
-      "date": "2016-11-28",
-      "ratio": 0.5062,
-      "chinext": 2166.04,
-      "dividend": 4279.07
-    },
-    {
-      "date": "2016-11-29",
-      "ratio": 0.5027,
-      "chinext": 2160.35,
-      "dividend": 4297.09
-    },
-    {
-      "date": "2016-11-30",
-      "ratio": 0.5136,
-      "chinext": 2183.05,
-      "dividend": 4250.25
-    },
-    {
-      "date": "2016-12-01",
-      "ratio": 0.5083,
-      "chinext": 2181.93,
-      "dividend": 4292.49
-    },
-    {
-      "date": "2016-12-02",
-      "ratio": 0.5046,
-      "chinext": 2143.45,
-      "dividend": 4247.61
-    },
-    {
-      "date": "2016-12-05",
-      "ratio": 0.5127,
-      "chinext": 2143.88,
-      "dividend": 4181.43
-    },
-    {
-      "date": "2016-12-06",
-      "ratio": 0.5083,
-      "chinext": 2122.26,
-      "dividend": 4175.43
-    },
-    {
-      "date": "2016-12-07",
-      "ratio": 0.5088,
-      "chinext": 2134.99,
-      "dividend": 4196.03
-    },
-    {
-      "date": "2016-12-08",
-      "ratio": 0.5043,
-      "chinext": 2114.71,
-      "dividend": 4193.68
-    },
-    {
-      "date": "2016-12-09",
-      "ratio": 0.4964,
-      "chinext": 2099.89,
-      "dividend": 4230.1
-    },
-    {
-      "date": "2016-12-12",
-      "ratio": 0.4809,
-      "chinext": 1984.39,
-      "dividend": 4126.78
-    },
-    {
-      "date": "2016-12-13",
-      "ratio": 0.4818,
-      "chinext": 1985.04,
-      "dividend": 4120.14
-    },
-    {
-      "date": "2016-12-14",
-      "ratio": 0.48,
-      "chinext": 1963.08,
-      "dividend": 4089.39
-    },
-    {
-      "date": "2016-12-15",
-      "ratio": 0.4885,
-      "chinext": 1975.85,
-      "dividend": 4044.91
-    },
-    {
-      "date": "2016-12-16",
-      "ratio": 0.4927,
-      "chinext": 1998.11,
-      "dividend": 4055.28
-    },
-    {
-      "date": "2016-12-19",
-      "ratio": 0.4888,
-      "chinext": 1980.41,
-      "dividend": 4051.58
-    },
-    {
-      "date": "2016-12-20",
-      "ratio": 0.4924,
-      "chinext": 1982.3,
-      "dividend": 4025.67
-    },
-    {
-      "date": "2016-12-21",
-      "ratio": 0.49,
-      "chinext": 1991.7,
-      "dividend": 4065.09
-    },
-    {
-      "date": "2016-12-22",
-      "ratio": 0.4878,
-      "chinext": 1986.27,
-      "dividend": 4072.16
-    },
-    {
-      "date": "2016-12-23",
-      "ratio": 0.4876,
-      "chinext": 1964.54,
-      "dividend": 4028.85
-    },
-    {
-      "date": "2016-12-26",
-      "ratio": 0.4885,
-      "chinext": 1974.01,
-      "dividend": 4040.77
-    },
-    {
-      "date": "2016-12-27",
-      "ratio": 0.4869,
-      "chinext": 1968.62,
-      "dividend": 4043.08
-    },
-    {
-      "date": "2016-12-28",
-      "ratio": 0.486,
-      "chinext": 1957.15,
-      "dividend": 4026.91
-    },
-    {
-      "date": "2016-12-29",
-      "ratio": 0.4872,
-      "chinext": 1959.24,
-      "dividend": 4021.23
-    },
-    {
-      "date": "2016-12-30",
-      "ratio": 0.4856,
-      "chinext": 1962.06,
-      "dividend": 4040.73
-    },
-    {
-      "date": "2017-01-03",
-      "ratio": 0.481,
-      "chinext": 1963.26,
-      "dividend": 4081.8
-    },
-    {
-      "date": "2017-01-04",
-      "ratio": 0.4839,
-      "chinext": 1991.57,
-      "dividend": 4115.53
-    },
-    {
-      "date": "2017-01-05",
-      "ratio": 0.4815,
-      "chinext": 1983.97,
-      "dividend": 4120.05
-    },
-    {
-      "date": "2017-01-06",
-      "ratio": 0.479,
-      "chinext": 1965.03,
-      "dividend": 4102.33
-    },
-    {
-      "date": "2017-01-09",
-      "ratio": 0.4754,
-      "chinext": 1961.62,
-      "dividend": 4125.82
-    },
-    {
-      "date": "2017-01-10",
-      "ratio": 0.4744,
-      "chinext": 1951.68,
-      "dividend": 4114.38
-    },
-    {
-      "date": "2017-01-11",
-      "ratio": 0.4747,
-      "chinext": 1937.55,
-      "dividend": 4082.06
-    },
-    {
-      "date": "2017-01-12",
-      "ratio": 0.4757,
-      "chinext": 1930.14,
-      "dividend": 4057.21
-    },
-    {
-      "date": "2017-01-13",
-      "ratio": 0.468,
-      "chinext": 1899.94,
-      "dividend": 4059.99
-    },
-    {
-      "date": "2017-01-16",
-      "ratio": 0.4506,
-      "chinext": 1830.85,
-      "dividend": 4063.01
-    },
-    {
-      "date": "2017-01-17",
-      "ratio": 0.4588,
-      "chinext": 1867.87,
-      "dividend": 4071.58
-    },
-    {
-      "date": "2017-01-18",
-      "ratio": 0.4505,
-      "chinext": 1845.79,
-      "dividend": 4096.88
-    },
-    {
-      "date": "2017-01-19",
-      "ratio": 0.4511,
-      "chinext": 1844.14,
-      "dividend": 4087.67
-    },
-    {
-      "date": "2017-01-20",
-      "ratio": 0.4561,
-      "chinext": 1880.75,
-      "dividend": 4123.69
-    },
-    {
-      "date": "2017-01-23",
-      "ratio": 0.4571,
-      "chinext": 1887.32,
-      "dividend": 4128.52
-    },
-    {
-      "date": "2017-01-24",
-      "ratio": 0.4491,
-      "chinext": 1861.22,
-      "dividend": 4144.2
-    },
-    {
-      "date": "2017-01-25",
-      "ratio": 0.4508,
-      "chinext": 1870.7,
-      "dividend": 4150.07
-    },
-    {
-      "date": "2017-01-26",
-      "ratio": 0.4537,
-      "chinext": 1886.23,
-      "dividend": 4157.87
-    },
-    {
-      "date": "2017-02-03",
-      "ratio": 0.4542,
-      "chinext": 1876.76,
-      "dividend": 4131.77
-    },
-    {
-      "date": "2017-02-06",
-      "ratio": 0.4586,
-      "chinext": 1900.45,
-      "dividend": 4144.05
-    },
-    {
-      "date": "2017-02-07",
-      "ratio": 0.4556,
-      "chinext": 1889.13,
-      "dividend": 4146.86
-    },
-    {
-      "date": "2017-02-08",
-      "ratio": 0.4574,
-      "chinext": 1903.63,
-      "dividend": 4161.75
-    },
-    {
-      "date": "2017-02-09",
-      "ratio": 0.4579,
-      "chinext": 1914.08,
-      "dividend": 4179.77
-    },
-    {
-      "date": "2017-02-10",
-      "ratio": 0.4528,
-      "chinext": 1904.68,
-      "dividend": 4206.29
-    },
-    {
-      "date": "2017-02-13",
-      "ratio": 0.4516,
-      "chinext": 1913.68,
-      "dividend": 4237.66
-    },
-    {
-      "date": "2017-02-14",
-      "ratio": 0.4515,
-      "chinext": 1909.4,
-      "dividend": 4228.75
-    },
-    {
-      "date": "2017-02-15",
-      "ratio": 0.4478,
-      "chinext": 1892.36,
-      "dividend": 4225.67
-    },
-    {
-      "date": "2017-02-16",
-      "ratio": 0.4467,
-      "chinext": 1897.63,
-      "dividend": 4248.34
-    },
-    {
-      "date": "2017-02-17",
-      "ratio": 0.4463,
-      "chinext": 1882.87,
-      "dividend": 4218.56
-    },
-    {
-      "date": "2017-02-20",
-      "ratio": 0.4414,
-      "chinext": 1894.96,
-      "dividend": 4293.09
-    },
-    {
-      "date": "2017-02-21",
-      "ratio": 0.4468,
-      "chinext": 1921.08,
-      "dividend": 4300.01
-    },
-    {
-      "date": "2017-02-22",
-      "ratio": 0.444,
-      "chinext": 1919.97,
-      "dividend": 4324.54
-    },
-    {
-      "date": "2017-02-23",
-      "ratio": 0.4476,
-      "chinext": 1925.95,
-      "dividend": 4302.67
-    },
-    {
-      "date": "2017-02-24",
-      "ratio": 0.4512,
-      "chinext": 1938.44,
-      "dividend": 4296.51
-    },
-    {
-      "date": "2017-02-27",
-      "ratio": 0.4526,
-      "chinext": 1926.77,
-      "dividend": 4256.86
-    },
-    {
-      "date": "2017-02-28",
-      "ratio": 0.4508,
-      "chinext": 1927.16,
-      "dividend": 4275.43
-    },
-    {
-      "date": "2017-03-01",
-      "ratio": 0.4515,
-      "chinext": 1931.97,
-      "dividend": 4278.95
-    },
-    {
-      "date": "2017-03-02",
-      "ratio": 0.4511,
-      "chinext": 1920.4,
-      "dividend": 4257.55
-    },
-    {
-      "date": "2017-03-03",
-      "ratio": 0.4527,
-      "chinext": 1928.29,
-      "dividend": 4259.2
-    },
-    {
-      "date": "2017-03-06",
-      "ratio": 0.4585,
-      "chinext": 1962.77,
-      "dividend": 4280.97
-    },
-    {
-      "date": "2017-03-07",
-      "ratio": 0.4615,
-      "chinext": 1977.85,
-      "dividend": 4285.91
-    },
-    {
-      "date": "2017-03-08",
-      "ratio": 0.4596,
-      "chinext": 1964.63,
-      "dividend": 4274.55
-    },
-    {
-      "date": "2017-03-09",
-      "ratio": 0.4607,
-      "chinext": 1953.94,
-      "dividend": 4240.96
-    },
-    {
-      "date": "2017-03-10",
-      "ratio": 0.4594,
-      "chinext": 1950.01,
-      "dividend": 4244.69
-    },
-    {
-      "date": "2017-03-13",
-      "ratio": 0.4599,
-      "chinext": 1970.88,
-      "dividend": 4285.47
-    },
-    {
-      "date": "2017-03-14",
-      "ratio": 0.4571,
-      "chinext": 1958.02,
-      "dividend": 4283.67
-    },
-    {
-      "date": "2017-03-15",
-      "ratio": 0.4555,
-      "chinext": 1957.82,
-      "dividend": 4298.08
-    },
-    {
-      "date": "2017-03-16",
-      "ratio": 0.4559,
-      "chinext": 1966.73,
-      "dividend": 4314.32
-    },
-    {
-      "date": "2017-03-17",
-      "ratio": 0.4567,
-      "chinext": 1949.66,
-      "dividend": 4268.78
-    },
-    {
-      "date": "2017-03-20",
-      "ratio": 0.4555,
-      "chinext": 1953.82,
-      "dividend": 4289.3
-    },
-    {
-      "date": "2017-03-21",
-      "ratio": 0.4528,
-      "chinext": 1961.06,
-      "dividend": 4331.33
-    },
-    {
-      "date": "2017-03-22",
-      "ratio": 0.4524,
-      "chinext": 1948.58,
-      "dividend": 4307.38
-    },
-    {
-      "date": "2017-03-23",
-      "ratio": 0.4514,
-      "chinext": 1948.37,
-      "dividend": 4316.12
-    },
-    {
-      "date": "2017-03-24",
-      "ratio": 0.4513,
-      "chinext": 1965.14,
-      "dividend": 4354.31
-    },
-    {
-      "date": "2017-03-27",
-      "ratio": 0.4486,
-      "chinext": 1947.53,
-      "dividend": 4341.29
-    },
-    {
-      "date": "2017-03-28",
-      "ratio": 0.4494,
-      "chinext": 1944.36,
-      "dividend": 4326.36
-    },
-    {
-      "date": "2017-03-29",
-      "ratio": 0.4466,
-      "chinext": 1929.2,
-      "dividend": 4319.62
-    },
-    {
-      "date": "2017-03-30",
-      "ratio": 0.4413,
-      "chinext": 1893.7,
-      "dividend": 4290.82
-    },
-    {
-      "date": "2017-03-31",
-      "ratio": 0.4411,
-      "chinext": 1907.34,
-      "dividend": 4323.96
-    },
-    {
-      "date": "2017-04-05",
-      "ratio": 0.4434,
-      "chinext": 1943.16,
-      "dividend": 4382.42
-    },
-    {
-      "date": "2017-04-06",
-      "ratio": 0.4419,
-      "chinext": 1944.23,
-      "dividend": 4400.05
-    },
-    {
-      "date": "2017-04-07",
-      "ratio": 0.4415,
-      "chinext": 1946.05,
-      "dividend": 4407.75
-    },
-    {
-      "date": "2017-04-10",
-      "ratio": 0.4341,
-      "chinext": 1912.45,
-      "dividend": 4405.85
-    },
-    {
-      "date": "2017-04-11",
-      "ratio": 0.4337,
-      "chinext": 1917.63,
-      "dividend": 4421.57
-    },
-    {
-      "date": "2017-04-12",
-      "ratio": 0.429,
-      "chinext": 1897.51,
-      "dividend": 4423.27
-    },
-    {
-      "date": "2017-04-13",
-      "ratio": 0.4293,
-      "chinext": 1910.48,
-      "dividend": 4450.62
-    },
-    {
-      "date": "2017-04-14",
-      "ratio": 0.4292,
-      "chinext": 1887.46,
-      "dividend": 4397.73
-    },
-    {
-      "date": "2017-04-17",
-      "ratio": 0.4269,
-      "chinext": 1868.28,
-      "dividend": 4375.88
-    },
-    {
-      "date": "2017-04-18",
-      "ratio": 0.4234,
-      "chinext": 1848.2,
-      "dividend": 4365.36
-    },
-    {
-      "date": "2017-04-19",
-      "ratio": 0.4245,
-      "chinext": 1845.38,
-      "dividend": 4347.31
-    },
-    {
-      "date": "2017-04-20",
-      "ratio": 0.4238,
-      "chinext": 1850.39,
-      "dividend": 4366.19
-    },
-    {
-      "date": "2017-04-21",
-      "ratio": 0.4209,
-      "chinext": 1839.01,
-      "dividend": 4369.35
-    },
-    {
-      "date": "2017-04-24",
-      "ratio": 0.4194,
-      "chinext": 1809.91,
-      "dividend": 4315.19
-    },
-    {
-      "date": "2017-04-25",
-      "ratio": 0.4195,
-      "chinext": 1818.87,
-      "dividend": 4335.38
-    },
-    {
-      "date": "2017-04-26",
-      "ratio": 0.4195,
-      "chinext": 1820.48,
-      "dividend": 4339.48
-    },
-    {
-      "date": "2017-04-27",
-      "ratio": 0.4257,
-      "chinext": 1842.92,
-      "dividend": 4329.63
-    },
-    {
-      "date": "2017-04-28",
-      "ratio": 0.4301,
-      "chinext": 1850.73,
-      "dividend": 4302.84
-    },
-    {
-      "date": "2017-05-02",
-      "ratio": 0.4323,
-      "chinext": 1850.85,
-      "dividend": 4281.13
-    },
-    {
-      "date": "2017-05-03",
-      "ratio": 0.4326,
-      "chinext": 1840.45,
-      "dividend": 4254.32
-    },
-    {
-      "date": "2017-05-04",
-      "ratio": 0.4323,
-      "chinext": 1838.1,
-      "dividend": 4251.87
-    },
-    {
-      "date": "2017-05-05",
-      "ratio": 0.4299,
-      "chinext": 1818.19,
-      "dividend": 4229.1
-    },
-    {
-      "date": "2017-05-08",
-      "ratio": 0.4265,
-      "chinext": 1788.71,
-      "dividend": 4194.24
-    },
-    {
-      "date": "2017-05-09",
-      "ratio": 0.4299,
-      "chinext": 1802.49,
-      "dividend": 4192.62
-    },
-    {
-      "date": "2017-05-10",
-      "ratio": 0.427,
-      "chinext": 1771.32,
-      "dividend": 4147.82
-    },
-    {
-      "date": "2017-05-11",
-      "ratio": 0.425,
-      "chinext": 1772.41,
-      "dividend": 4170.48
-    },
-    {
-      "date": "2017-05-12",
-      "ratio": 0.4223,
-      "chinext": 1774.63,
-      "dividend": 4202.12
-    },
-    {
-      "date": "2017-05-15",
-      "ratio": 0.4206,
-      "chinext": 1778.64,
-      "dividend": 4228.94
-    },
-    {
-      "date": "2017-05-16",
-      "ratio": 0.4242,
-      "chinext": 1814.94,
-      "dividend": 4278.08
-    },
-    {
-      "date": "2017-05-17",
-      "ratio": 0.4273,
-      "chinext": 1822.64,
-      "dividend": 4265.53
-    },
-    {
-      "date": "2017-05-18",
-      "ratio": 0.4272,
-      "chinext": 1813.51,
-      "dividend": 4245.37
-    },
-    {
-      "date": "2017-05-19",
-      "ratio": 0.4227,
-      "chinext": 1801.08,
-      "dividend": 4261.37
-    },
-    {
-      "date": "2017-05-22",
-      "ratio": 0.4209,
-      "chinext": 1788.08,
-      "dividend": 4248.44
-    },
-    {
-      "date": "2017-05-23",
-      "ratio": 0.4128,
-      "chinext": 1758.23,
-      "dividend": 4259.54
-    },
-    {
-      "date": "2017-05-24",
-      "ratio": 0.4163,
-      "chinext": 1776.28,
-      "dividend": 4266.98
-    },
-    {
-      "date": "2017-05-25",
-      "ratio": 0.411,
-      "chinext": 1777.69,
-      "dividend": 4325.16
-    },
-    {
-      "date": "2017-05-26",
-      "ratio": 0.4063,
-      "chinext": 1759.63,
-      "dividend": 4331.28
-    },
-    {
-      "date": "2017-05-31",
-      "ratio": 0.4065,
-      "chinext": 1763.73,
-      "dividend": 4338.31
-    },
-    {
-      "date": "2017-06-01",
-      "ratio": 0.3991,
-      "chinext": 1728.49,
-      "dividend": 4330.89
-    },
-    {
-      "date": "2017-06-02",
-      "ratio": 0.4024,
-      "chinext": 1745.93,
-      "dividend": 4338.47
-    },
-    {
-      "date": "2017-06-05",
-      "ratio": 0.408,
-      "chinext": 1761.25,
-      "dividend": 4316.5
-    },
-    {
-      "date": "2017-06-06",
-      "ratio": 0.4071,
-      "chinext": 1766.39,
-      "dividend": 4338.88
-    },
-    {
-      "date": "2017-06-07",
-      "ratio": 0.4093,
-      "chinext": 1799.85,
-      "dividend": 4397.44
-    },
-    {
-      "date": "2017-06-08",
-      "ratio": 0.4044,
-      "chinext": 1794.75,
-      "dividend": 4437.77
-    },
-    {
-      "date": "2017-06-09",
-      "ratio": 0.4035,
-      "chinext": 1796.13,
-      "dividend": 4450.95
-    },
-    {
-      "date": "2017-06-12",
-      "ratio": 0.3979,
-      "chinext": 1775.55,
-      "dividend": 4462.27
-    },
-    {
-      "date": "2017-06-13",
-      "ratio": 0.4011,
-      "chinext": 1795.63,
-      "dividend": 4477.02
-    },
-    {
-      "date": "2017-06-14",
-      "ratio": 0.4057,
-      "chinext": 1790.64,
-      "dividend": 4413.18
-    },
-    {
-      "date": "2017-06-15",
-      "ratio": 0.4135,
-      "chinext": 1816.26,
-      "dividend": 4391.99
-    },
-    {
-      "date": "2017-06-16",
-      "ratio": 0.4149,
-      "chinext": 1810.05,
-      "dividend": 4362.86
-    },
-    {
-      "date": "2017-06-19",
-      "ratio": 0.4134,
-      "chinext": 1816.4,
-      "dividend": 4393.38
-    },
-    {
-      "date": "2017-06-20",
-      "ratio": 0.415,
-      "chinext": 1820.98,
-      "dividend": 4387.9
-    },
-    {
-      "date": "2017-06-21",
-      "ratio": 0.4111,
-      "chinext": 1824.69,
-      "dividend": 4439.06
-    },
-    {
-      "date": "2017-06-22",
-      "ratio": 0.4052,
-      "chinext": 1798.38,
-      "dividend": 4438.04
-    },
-    {
-      "date": "2017-06-23",
-      "ratio": 0.4039,
-      "chinext": 1807.43,
-      "dividend": 4475.03
-    },
-    {
-      "date": "2017-06-26",
-      "ratio": 0.4024,
-      "chinext": 1821.28,
-      "dividend": 4525.73
-    },
-    {
-      "date": "2017-06-27",
-      "ratio": 0.4013,
-      "chinext": 1819.93,
-      "dividend": 4534.92
-    },
-    {
-      "date": "2017-06-28",
-      "ratio": 0.4009,
-      "chinext": 1808.2,
-      "dividend": 4510.0
-    },
-    {
-      "date": "2017-06-29",
-      "ratio": 0.4008,
-      "chinext": 1813.55,
-      "dividend": 4525.37
-    },
-    {
-      "date": "2017-06-30",
-      "ratio": 0.4016,
-      "chinext": 1818.07,
-      "dividend": 4527.24
-    },
-    {
-      "date": "2017-07-03",
-      "ratio": 0.4063,
-      "chinext": 1835.99,
-      "dividend": 4518.92
-    },
-    {
-      "date": "2017-07-04",
-      "ratio": 0.408,
-      "chinext": 1829.51,
-      "dividend": 4483.8
-    },
-    {
-      "date": "2017-07-05",
-      "ratio": 0.4069,
-      "chinext": 1836.63,
-      "dividend": 4514.1
-    },
-    {
-      "date": "2017-07-06",
-      "ratio": 0.4073,
-      "chinext": 1839.0,
-      "dividend": 4515.58
-    },
-    {
-      "date": "2017-07-07",
-      "ratio": 0.4063,
-      "chinext": 1835.44,
-      "dividend": 4517.37
-    },
-    {
-      "date": "2017-07-10",
-      "ratio": 0.4002,
-      "chinext": 1803.25,
-      "dividend": 4506.22
-    },
-    {
-      "date": "2017-07-11",
-      "ratio": 0.3941,
-      "chinext": 1783.91,
-      "dividend": 4526.76
-    },
-    {
-      "date": "2017-07-12",
-      "ratio": 0.3965,
-      "chinext": 1786.75,
-      "dividend": 4505.91
-    },
-    {
-      "date": "2017-07-13",
-      "ratio": 0.3938,
-      "chinext": 1778.86,
-      "dividend": 4517.2
-    },
-    {
-      "date": "2017-07-14",
-      "ratio": 0.3841,
-      "chinext": 1745.57,
-      "dividend": 4544.46
-    },
-    {
-      "date": "2017-07-17",
-      "ratio": 0.369,
-      "chinext": 1656.43,
-      "dividend": 4489.01
-    },
-    {
-      "date": "2017-07-18",
-      "ratio": 0.3714,
-      "chinext": 1667.49,
-      "dividend": 4489.53
-    },
-    {
-      "date": "2017-07-19",
-      "ratio": 0.3703,
-      "chinext": 1684.77,
-      "dividend": 4549.81
-    },
-    {
-      "date": "2017-07-20",
-      "ratio": 0.368,
-      "chinext": 1688.61,
-      "dividend": 4588.11
-    },
-    {
-      "date": "2017-07-21",
-      "ratio": 0.3686,
-      "chinext": 1690.15,
-      "dividend": 4585.49
-    },
-    {
-      "date": "2017-07-24",
-      "ratio": 0.3654,
-      "chinext": 1686.44,
-      "dividend": 4615.17
-    },
-    {
-      "date": "2017-07-25",
-      "ratio": 0.3676,
-      "chinext": 1688.09,
-      "dividend": 4592.29
-    },
-    {
-      "date": "2017-07-26",
-      "ratio": 0.368,
-      "chinext": 1681.31,
-      "dividend": 4568.78
-    },
-    {
-      "date": "2017-07-27",
-      "ratio": 0.3817,
-      "chinext": 1742.19,
-      "dividend": 4564.19
-    },
-    {
-      "date": "2017-07-28",
-      "ratio": 0.3785,
-      "chinext": 1734.07,
-      "dividend": 4581.28
-    },
-    {
-      "date": "2017-07-31",
-      "ratio": 0.3775,
-      "chinext": 1736.3,
-      "dividend": 4599.89
-    },
-    {
-      "date": "2017-08-01",
-      "ratio": 0.3762,
-      "chinext": 1741.07,
-      "dividend": 4627.98
-    },
-    {
-      "date": "2017-08-02",
-      "ratio": 0.3744,
-      "chinext": 1724.83,
-      "dividend": 4606.67
-    },
-    {
-      "date": "2017-08-03",
-      "ratio": 0.3793,
-      "chinext": 1733.12,
-      "dividend": 4569.54
-    },
-    {
-      "date": "2017-08-04",
-      "ratio": 0.3781,
-      "chinext": 1719.62,
-      "dividend": 4548.57
-    },
-    {
-      "date": "2017-08-07",
-      "ratio": 0.3785,
-      "chinext": 1732.43,
-      "dividend": 4577.64
-    },
-    {
-      "date": "2017-08-08",
-      "ratio": 0.3855,
-      "chinext": 1762.42,
-      "dividend": 4572.2
-    },
-    {
-      "date": "2017-08-09",
-      "ratio": 0.3846,
-      "chinext": 1763.05,
-      "dividend": 4584.55
-    },
-    {
-      "date": "2017-08-10",
-      "ratio": 0.3836,
-      "chinext": 1753.67,
-      "dividend": 4572.05
-    },
-    {
-      "date": "2017-08-11",
-      "ratio": 0.3878,
-      "chinext": 1742.14,
-      "dividend": 4492.21
-    },
-    {
-      "date": "2017-08-14",
-      "ratio": 0.396,
-      "chinext": 1793.48,
-      "dividend": 4528.8
-    },
-    {
-      "date": "2017-08-15",
-      "ratio": 0.3947,
-      "chinext": 1798.57,
-      "dividend": 4556.9
-    },
-    {
-      "date": "2017-08-16",
-      "ratio": 0.4019,
-      "chinext": 1825.19,
-      "dividend": 4541.25
-    },
-    {
-      "date": "2017-08-17",
-      "ratio": 0.4018,
-      "chinext": 1833.4,
-      "dividend": 4563.46
-    },
-    {
-      "date": "2017-08-18",
-      "ratio": 0.3983,
-      "chinext": 1821.8,
-      "dividend": 4574.27
-    },
-    {
-      "date": "2017-08-21",
-      "ratio": 0.3983,
-      "chinext": 1829.22,
-      "dividend": 4592.58
-    },
-    {
-      "date": "2017-08-22",
-      "ratio": 0.3951,
-      "chinext": 1814.92,
-      "dividend": 4593.61
-    },
-    {
-      "date": "2017-08-23",
-      "ratio": 0.3936,
-      "chinext": 1807.37,
-      "dividend": 4591.57
-    },
-    {
-      "date": "2017-08-24",
-      "ratio": 0.3914,
-      "chinext": 1795.74,
-      "dividend": 4588.27
-    },
-    {
-      "date": "2017-08-25",
-      "ratio": 0.3902,
-      "chinext": 1812.88,
-      "dividend": 4646.54
-    },
-    {
-      "date": "2017-08-28",
-      "ratio": 0.3938,
-      "chinext": 1842.83,
-      "dividend": 4679.79
-    },
-    {
-      "date": "2017-08-29",
-      "ratio": 0.3917,
-      "chinext": 1831.59,
-      "dividend": 4676.54
-    },
-    {
-      "date": "2017-08-30",
-      "ratio": 0.3928,
-      "chinext": 1838.63,
-      "dividend": 4681.08
-    },
-    {
-      "date": "2017-08-31",
-      "ratio": 0.3974,
-      "chinext": 1849.38,
-      "dividend": 4653.35
-    },
-    {
-      "date": "2017-09-01",
-      "ratio": 0.4,
-      "chinext": 1865.25,
-      "dividend": 4663.48
-    },
-    {
-      "date": "2017-09-04",
-      "ratio": 0.4034,
-      "chinext": 1883.62,
-      "dividend": 4669.58
-    },
-    {
-      "date": "2017-09-05",
-      "ratio": 0.4035,
-      "chinext": 1885.16,
-      "dividend": 4672.39
-    },
-    {
-      "date": "2017-09-06",
-      "ratio": 0.4079,
-      "chinext": 1902.86,
-      "dividend": 4664.5
-    },
-    {
-      "date": "2017-09-07",
-      "ratio": 0.4062,
-      "chinext": 1890.38,
-      "dividend": 4654.16
-    },
-    {
-      "date": "2017-09-08",
-      "ratio": 0.4055,
-      "chinext": 1885.27,
-      "dividend": 4649.43
-    },
-    {
-      "date": "2017-09-11",
-      "ratio": 0.4071,
-      "chinext": 1896.38,
-      "dividend": 4657.85
-    },
-    {
-      "date": "2017-09-12",
-      "ratio": 0.4029,
-      "chinext": 1884.48,
-      "dividend": 4677.32
-    },
-    {
-      "date": "2017-09-13",
-      "ratio": 0.4029,
-      "chinext": 1888.43,
-      "dividend": 4686.92
-    },
-    {
-      "date": "2017-09-14",
-      "ratio": 0.402,
-      "chinext": 1879.25,
-      "dividend": 4675.25
-    },
-    {
-      "date": "2017-09-15",
-      "ratio": 0.4019,
-      "chinext": 1875.63,
-      "dividend": 4666.91
-    },
-    {
-      "date": "2017-09-18",
-      "ratio": 0.4051,
-      "chinext": 1894.8,
-      "dividend": 4676.92
-    },
-    {
-      "date": "2017-09-19",
-      "ratio": 0.4032,
-      "chinext": 1880.3,
-      "dividend": 4663.19
-    },
-    {
-      "date": "2017-09-20",
-      "ratio": 0.4039,
-      "chinext": 1892.67,
-      "dividend": 4685.91
-    },
-    {
-      "date": "2017-09-21",
-      "ratio": 0.3998,
-      "chinext": 1872.77,
-      "dividend": 4683.82
-    },
-    {
-      "date": "2017-09-22",
-      "ratio": 0.398,
-      "chinext": 1866.42,
-      "dividend": 4690.05
-    },
-    {
-      "date": "2017-09-25",
-      "ratio": 0.3949,
-      "chinext": 1843.62,
-      "dividend": 4668.8
-    },
-    {
-      "date": "2017-09-26",
-      "ratio": 0.3942,
-      "chinext": 1839.46,
-      "dividend": 4666.41
-    },
-    {
-      "date": "2017-09-27",
-      "ratio": 0.3969,
-      "chinext": 1854.94,
-      "dividend": 4673.3
-    },
-    {
-      "date": "2017-09-28",
-      "ratio": 0.3977,
-      "chinext": 1854.73,
-      "dividend": 4663.26
-    },
-    {
-      "date": "2017-09-29",
-      "ratio": 0.3996,
-      "chinext": 1866.98,
-      "dividend": 4672.25
-    },
-    {
-      "date": "2017-10-09",
-      "ratio": 0.4004,
-      "chinext": 1889.84,
-      "dividend": 4719.97
-    },
-    {
-      "date": "2017-10-10",
-      "ratio": 0.4057,
-      "chinext": 1917.46,
-      "dividend": 4726.09
-    },
-    {
-      "date": "2017-10-11",
-      "ratio": 0.4012,
-      "chinext": 1901.55,
-      "dividend": 4739.61
-    },
-    {
-      "date": "2017-10-12",
-      "ratio": 0.4008,
-      "chinext": 1899.99,
-      "dividend": 4740.3
-    },
-    {
-      "date": "2017-10-13",
-      "ratio": 0.4062,
-      "chinext": 1926.07,
-      "dividend": 4741.52
-    },
-    {
-      "date": "2017-10-16",
-      "ratio": 0.3998,
-      "chinext": 1882.69,
-      "dividend": 4708.88
-    },
-    {
-      "date": "2017-10-17",
-      "ratio": 0.3986,
-      "chinext": 1876.99,
-      "dividend": 4708.79
-    },
-    {
-      "date": "2017-10-18",
-      "ratio": 0.3941,
-      "chinext": 1868.16,
-      "dividend": 4740.83
-    },
-    {
-      "date": "2017-10-19",
-      "ratio": 0.3929,
-      "chinext": 1862.61,
-      "dividend": 4740.43
-    },
-    {
-      "date": "2017-10-20",
-      "ratio": 0.3965,
-      "chinext": 1880.21,
-      "dividend": 4742.31
-    },
-    {
-      "date": "2017-10-23",
-      "ratio": 0.4,
-      "chinext": 1898.76,
-      "dividend": 4746.5
-    },
-    {
-      "date": "2017-10-24",
-      "ratio": 0.3982,
-      "chinext": 1901.69,
-      "dividend": 4775.13
-    },
-    {
-      "date": "2017-10-25",
-      "ratio": 0.3997,
-      "chinext": 1913.26,
-      "dividend": 4787.01
-    },
-    {
-      "date": "2017-10-26",
-      "ratio": 0.3987,
-      "chinext": 1910.72,
-      "dividend": 4791.85
-    },
-    {
-      "date": "2017-10-27",
-      "ratio": 0.3945,
-      "chinext": 1896.22,
-      "dividend": 4806.63
-    },
-    {
-      "date": "2017-10-30",
-      "ratio": 0.3878,
-      "chinext": 1855.99,
-      "dividend": 4786.04
-    },
-    {
-      "date": "2017-10-31",
-      "ratio": 0.3922,
-      "chinext": 1869.79,
-      "dividend": 4767.55
-    },
-    {
-      "date": "2017-11-01",
-      "ratio": 0.3947,
-      "chinext": 1872.75,
-      "dividend": 4744.36
-    },
-    {
-      "date": "2017-11-02",
-      "ratio": 0.3894,
-      "chinext": 1847.56,
-      "dividend": 4744.38
-    },
-    {
-      "date": "2017-11-03",
-      "ratio": 0.388,
-      "chinext": 1832.97,
-      "dividend": 4724.28
-    },
-    {
-      "date": "2017-11-06",
-      "ratio": 0.389,
-      "chinext": 1850.3,
-      "dividend": 4757.08
-    },
-    {
-      "date": "2017-11-07",
-      "ratio": 0.3884,
-      "chinext": 1859.07,
-      "dividend": 4786.6
-    },
-    {
-      "date": "2017-11-08",
-      "ratio": 0.3897,
-      "chinext": 1866.14,
-      "dividend": 4788.85
-    },
-    {
-      "date": "2017-11-09",
-      "ratio": 0.3913,
-      "chinext": 1884.11,
-      "dividend": 4814.41
-    },
-    {
-      "date": "2017-11-10",
-      "ratio": 0.3926,
-      "chinext": 1900.63,
-      "dividend": 4841.38
-    },
-    {
-      "date": "2017-11-13",
-      "ratio": 0.3916,
-      "chinext": 1906.44,
-      "dividend": 4867.81
-    },
-    {
-      "date": "2017-11-14",
-      "ratio": 0.3922,
-      "chinext": 1896.72,
-      "dividend": 4836.05
-    },
-    {
-      "date": "2017-11-15",
-      "ratio": 0.388,
-      "chinext": 1868.08,
-      "dividend": 4814.78
-    },
-    {
-      "date": "2017-11-16",
-      "ratio": 0.3891,
-      "chinext": 1878.26,
-      "dividend": 4827.47
-    },
-    {
-      "date": "2017-11-17",
-      "ratio": 0.3793,
-      "chinext": 1833.9,
-      "dividend": 4835.37
-    },
-    {
-      "date": "2017-11-20",
-      "ratio": 0.3829,
-      "chinext": 1859.75,
-      "dividend": 4857.33
-    },
-    {
-      "date": "2017-11-21",
-      "ratio": 0.3773,
-      "chinext": 1856.96,
-      "dividend": 4921.27
-    },
-    {
-      "date": "2017-11-22",
-      "ratio": 0.3761,
-      "chinext": 1853.38,
-      "dividend": 4928.32
-    },
-    {
-      "date": "2017-11-23",
-      "ratio": 0.374,
-      "chinext": 1794.78,
-      "dividend": 4798.55
-    },
-    {
-      "date": "2017-11-24",
-      "ratio": 0.3715,
-      "chinext": 1782.66,
-      "dividend": 4798.52
-    },
-    {
-      "date": "2017-11-27",
-      "ratio": 0.3702,
-      "chinext": 1760.9,
-      "dividend": 4756.49
-    },
-    {
-      "date": "2017-11-28",
-      "ratio": 0.3768,
-      "chinext": 1793.87,
-      "dividend": 4760.79
-    },
-    {
-      "date": "2017-11-29",
-      "ratio": 0.3758,
-      "chinext": 1787.38,
-      "dividend": 4755.96
-    },
-    {
-      "date": "2017-11-30",
-      "ratio": 0.3746,
-      "chinext": 1770.3,
-      "dividend": 4725.78
-    },
-    {
-      "date": "2017-12-01",
-      "ratio": 0.3825,
-      "chinext": 1804.62,
-      "dividend": 4718.13
-    },
-    {
-      "date": "2017-12-04",
-      "ratio": 0.3806,
-      "chinext": 1797.77,
-      "dividend": 4724.02
-    },
-    {
-      "date": "2017-12-05",
-      "ratio": 0.3714,
-      "chinext": 1758.59,
-      "dividend": 4735.6
-    },
-    {
-      "date": "2017-12-06",
-      "ratio": 0.3789,
-      "chinext": 1784.31,
-      "dividend": 4708.7
-    },
-    {
-      "date": "2017-12-07",
-      "ratio": 0.3813,
-      "chinext": 1776.99,
-      "dividend": 4660.84
-    },
-    {
-      "date": "2017-12-08",
-      "ratio": 0.3833,
-      "chinext": 1792.16,
-      "dividend": 4675.84
-    },
-    {
-      "date": "2017-12-11",
-      "ratio": 0.3845,
-      "chinext": 1816.98,
-      "dividend": 4725.18
-    },
-    {
-      "date": "2017-12-12",
-      "ratio": 0.3845,
-      "chinext": 1798.69,
-      "dividend": 4677.61
-    },
-    {
-      "date": "2017-12-13",
-      "ratio": 0.3832,
-      "chinext": 1806.09,
-      "dividend": 4713.32
-    },
-    {
-      "date": "2017-12-14",
-      "ratio": 0.3816,
-      "chinext": 1794.34,
-      "dividend": 4702.4
-    },
-    {
-      "date": "2017-12-15",
-      "ratio": 0.3824,
-      "chinext": 1783.97,
-      "dividend": 4664.86
-    },
-    {
-      "date": "2017-12-18",
-      "ratio": 0.3818,
-      "chinext": 1780.64,
-      "dividend": 4664.14
-    },
-    {
-      "date": "2017-12-19",
-      "ratio": 0.3824,
-      "chinext": 1798.5,
-      "dividend": 4703.62
-    },
-    {
-      "date": "2017-12-20",
-      "ratio": 0.38,
-      "chinext": 1782.41,
-      "dividend": 4690.55
-    },
-    {
-      "date": "2017-12-21",
-      "ratio": 0.3795,
-      "chinext": 1789.74,
-      "dividend": 4716.31
-    },
-    {
-      "date": "2017-12-22",
-      "ratio": 0.3772,
-      "chinext": 1779.34,
-      "dividend": 4716.9
-    },
-    {
-      "date": "2017-12-25",
-      "ratio": 0.3727,
-      "chinext": 1755.81,
-      "dividend": 4710.8
-    },
-    {
-      "date": "2017-12-26",
-      "ratio": 0.3718,
-      "chinext": 1758.82,
-      "dividend": 4730.76
-    },
-    {
-      "date": "2017-12-27",
-      "ratio": 0.3716,
-      "chinext": 1745.24,
-      "dividend": 4696.68
-    },
-    {
-      "date": "2017-12-28",
-      "ratio": 0.3698,
-      "chinext": 1745.02,
-      "dividend": 4718.56
-    },
-    {
-      "date": "2017-12-29",
-      "ratio": 0.3689,
-      "chinext": 1752.65,
-      "dividend": 4750.79
-    },
-    {
-      "date": "2018-01-02",
-      "ratio": 0.3659,
-      "chinext": 1769.67,
-      "dividend": 4836.08
-    },
-    {
-      "date": "2018-01-03",
-      "ratio": 0.3694,
-      "chinext": 1795.38,
-      "dividend": 4859.7
-    },
-    {
-      "date": "2018-01-04",
-      "ratio": 0.3679,
-      "chinext": 1794.61,
-      "dividend": 4877.63
-    },
-    {
-      "date": "2018-01-05",
-      "ratio": 0.3667,
-      "chinext": 1801.42,
-      "dividend": 4912.43
-    },
-    {
-      "date": "2018-01-08",
-      "ratio": 0.3647,
-      "chinext": 1806.16,
-      "dividend": 4952.72
-    },
-    {
-      "date": "2018-01-09",
-      "ratio": 0.3644,
-      "chinext": 1803.59,
-      "dividend": 4949.16
-    },
-    {
-      "date": "2018-01-10",
-      "ratio": 0.3608,
-      "chinext": 1791.08,
-      "dividend": 4964.0
-    },
-    {
-      "date": "2018-01-11",
-      "ratio": 0.3644,
-      "chinext": 1804.23,
-      "dividend": 4950.75
-    },
-    {
-      "date": "2018-01-12",
-      "ratio": 0.3589,
-      "chinext": 1785.7,
-      "dividend": 4974.83
-    },
-    {
-      "date": "2018-01-15",
-      "ratio": 0.3496,
-      "chinext": 1732.62,
-      "dividend": 4956.67
-    },
-    {
-      "date": "2018-01-16",
-      "ratio": 0.344,
-      "chinext": 1729.6,
-      "dividend": 5027.23
-    },
-    {
-      "date": "2018-01-17",
-      "ratio": 0.347,
-      "chinext": 1742.03,
-      "dividend": 5020.78
-    },
-    {
-      "date": "2018-01-18",
-      "ratio": 0.3434,
-      "chinext": 1738.0,
-      "dividend": 5061.05
-    },
-    {
-      "date": "2018-01-19",
-      "ratio": 0.3416,
-      "chinext": 1728.14,
-      "dividend": 5058.98
-    },
-    {
-      "date": "2018-01-22",
-      "ratio": 0.3461,
-      "chinext": 1768.21,
-      "dividend": 5108.9
-    },
-    {
-      "date": "2018-01-23",
-      "ratio": 0.342,
-      "chinext": 1767.83,
-      "dividend": 5169.57
-    },
-    {
-      "date": "2018-01-24",
-      "ratio": 0.3502,
-      "chinext": 1813.28,
-      "dividend": 5177.35
-    },
-    {
-      "date": "2018-01-25",
-      "ratio": 0.3512,
-      "chinext": 1810.83,
-      "dividend": 5156.28
-    },
-    {
-      "date": "2018-01-26",
-      "ratio": 0.35,
-      "chinext": 1816.8,
-      "dividend": 5190.29
-    },
-    {
-      "date": "2018-01-29",
-      "ratio": 0.3502,
-      "chinext": 1799.77,
-      "dividend": 5139.46
-    },
-    {
-      "date": "2018-01-30",
-      "ratio": 0.351,
-      "chinext": 1782.4,
-      "dividend": 5077.64
-    },
-    {
-      "date": "2018-01-31",
-      "ratio": 0.3421,
-      "chinext": 1735.06,
-      "dividend": 5071.81
-    },
-    {
-      "date": "2018-02-01",
-      "ratio": 0.3381,
-      "chinext": 1697.39,
-      "dividend": 5020.18
-    },
-    {
-      "date": "2018-02-02",
-      "ratio": 0.3363,
-      "chinext": 1702.43,
-      "dividend": 5061.52
-    },
-    {
-      "date": "2018-02-05",
+      "date": "2012-09-18",
       "ratio": 0.3311,
-      "chinext": 1688.27,
-      "dividend": 5098.94
+      "chinext": 723.61,
+      "dividend": 2185.8
     },
     {
-      "date": "2018-02-06",
-      "ratio": 0.3227,
-      "chinext": 1598.12,
-      "dividend": 4952.92
+      "date": "2012-09-19",
+      "ratio": 0.3323,
+      "chinext": 728.25,
+      "dividend": 2191.78
     },
     {
-      "date": "2018-02-07",
-      "ratio": 0.3331,
-      "chinext": 1616.4,
-      "dividend": 4852.49
+      "date": "2012-09-20",
+      "ratio": 0.3291,
+      "chinext": 706.69,
+      "dividend": 2147.6
     },
     {
-      "date": "2018-02-08",
-      "ratio": 0.3415,
-      "chinext": 1641.43,
-      "dividend": 4807.16
+      "date": "2012-09-21",
+      "ratio": 0.3209,
+      "chinext": 691.14,
+      "dividend": 2153.71
     },
     {
-      "date": "2018-02-09",
-      "ratio": 0.3447,
-      "chinext": 1592.51,
-      "dividend": 4620.23
+      "date": "2012-09-24",
+      "ratio": 0.319,
+      "chinext": 690.34,
+      "dividend": 2164.3
     },
     {
-      "date": "2018-02-12",
-      "ratio": 0.3527,
-      "chinext": 1648.07,
-      "dividend": 4672.71
+      "date": "2012-09-25",
+      "ratio": 0.3153,
+      "chinext": 682.34,
+      "dividend": 2163.77
     },
     {
-      "date": "2018-02-13",
-      "ratio": 0.349,
-      "chinext": 1648.58,
-      "dividend": 4724.1
+      "date": "2012-09-26",
+      "ratio": 0.3087,
+      "chinext": 661.49,
+      "dividend": 2143.02
     },
     {
-      "date": "2018-02-14",
-      "ratio": 0.3477,
-      "chinext": 1646.77,
-      "dividend": 4736.56
+      "date": "2012-09-27",
+      "ratio": 0.3064,
+      "chinext": 676.96,
+      "dividend": 2209.71
     },
     {
-      "date": "2018-02-22",
-      "ratio": 0.3467,
-      "chinext": 1677.76,
-      "dividend": 4839.25
+      "date": "2012-09-28",
+      "ratio": 0.3075,
+      "chinext": 689.64,
+      "dividend": 2242.93
     },
     {
-      "date": "2018-02-23",
-      "ratio": 0.3439,
-      "chinext": 1668.83,
-      "dividend": 4853.35
+      "date": "2012-10-08",
+      "ratio": 0.3105,
+      "chinext": 690.77,
+      "dividend": 2224.8
     },
     {
-      "date": "2018-02-26",
-      "ratio": 0.353,
-      "chinext": 1729.15,
-      "dividend": 4899.07
+      "date": "2012-10-09",
+      "ratio": 0.3142,
+      "chinext": 712.7,
+      "dividend": 2268.59
     },
     {
-      "date": "2018-02-27",
-      "ratio": 0.3616,
-      "chinext": 1743.54,
-      "dividend": 4822.35
+      "date": "2012-10-10",
+      "ratio": 0.3181,
+      "chinext": 721.85,
+      "dividend": 2269.55
     },
     {
-      "date": "2018-02-28",
-      "ratio": 0.3661,
-      "chinext": 1753.63,
-      "dividend": 4789.78
+      "date": "2012-10-11",
+      "ratio": 0.3166,
+      "chinext": 711.8,
+      "dividend": 2247.98
     },
     {
-      "date": "2018-03-01",
-      "ratio": 0.3732,
-      "chinext": 1789.85,
-      "dividend": 4796.38
+      "date": "2012-10-12",
+      "ratio": 0.3144,
+      "chinext": 708.87,
+      "dividend": 2254.35
     },
     {
-      "date": "2018-03-02",
-      "ratio": 0.3704,
-      "chinext": 1772.01,
-      "dividend": 4783.91
+      "date": "2012-10-15",
+      "ratio": 0.312,
+      "chinext": 701.96,
+      "dividend": 2249.71
     },
     {
-      "date": "2018-03-05",
-      "ratio": 0.3759,
-      "chinext": 1795.69,
-      "dividend": 4777.4
+      "date": "2012-10-16",
+      "ratio": 0.3137,
+      "chinext": 705.39,
+      "dividend": 2248.54
     },
     {
-      "date": "2018-03-06",
-      "ratio": 0.3713,
-      "chinext": 1797.61,
-      "dividend": 4841.26
+      "date": "2012-10-17",
+      "ratio": 0.3144,
+      "chinext": 709.09,
+      "dividend": 2255.42
     },
     {
-      "date": "2018-03-07",
-      "ratio": 0.3702,
-      "chinext": 1785.27,
-      "dividend": 4822.2
+      "date": "2012-10-18",
+      "ratio": 0.3153,
+      "chinext": 720.52,
+      "dividend": 2285.28
     },
     {
-      "date": "2018-03-08",
-      "ratio": 0.3684,
-      "chinext": 1793.22,
-      "dividend": 4867.4
+      "date": "2012-10-19",
+      "ratio": 0.3161,
+      "chinext": 719.45,
+      "dividend": 2276.18
     },
     {
-      "date": "2018-03-09",
-      "ratio": 0.3801,
-      "chinext": 1856.46,
-      "dividend": 4884.41
+      "date": "2012-10-22",
+      "ratio": 0.3166,
+      "chinext": 724.28,
+      "dividend": 2287.46
     },
     {
-      "date": "2018-03-12",
-      "ratio": 0.3846,
-      "chinext": 1882.41,
-      "dividend": 4894.36
+      "date": "2012-10-23",
+      "ratio": 0.3147,
+      "chinext": 711.26,
+      "dividend": 2260.24
     },
     {
-      "date": "2018-03-13",
-      "ratio": 0.385,
-      "chinext": 1872.68,
-      "dividend": 4864.38
+      "date": "2012-10-24",
+      "ratio": 0.3134,
+      "chinext": 707.75,
+      "dividend": 2258.6
     },
     {
-      "date": "2018-03-14",
-      "ratio": 0.38,
-      "chinext": 1841.29,
-      "dividend": 4845.2
+      "date": "2012-10-25",
+      "ratio": 0.3111,
+      "chinext": 697.44,
+      "dividend": 2241.5
     },
     {
-      "date": "2018-03-15",
-      "ratio": 0.3811,
-      "chinext": 1848.71,
-      "dividend": 4851.28
+      "date": "2012-10-26",
+      "ratio": 0.3101,
+      "chinext": 685.33,
+      "dividend": 2209.9
     },
     {
-      "date": "2018-03-16",
-      "ratio": 0.3784,
-      "chinext": 1821.32,
-      "dividend": 4813.08
+      "date": "2012-10-29",
+      "ratio": 0.3131,
+      "chinext": 688.12,
+      "dividend": 2197.64
     },
     {
-      "date": "2018-03-19",
-      "ratio": 0.3846,
-      "chinext": 1842.92,
-      "dividend": 4791.61
+      "date": "2012-10-30",
+      "ratio": 0.3132,
+      "chinext": 689.61,
+      "dividend": 2201.97
     },
     {
-      "date": "2018-03-20",
-      "ratio": 0.3892,
-      "chinext": 1864.62,
-      "dividend": 4790.34
+      "date": "2012-10-31",
+      "ratio": 0.3125,
+      "chinext": 691.65,
+      "dividend": 2213.34
     },
     {
-      "date": "2018-03-21",
-      "ratio": 0.3827,
-      "chinext": 1829.91,
-      "dividend": 4781.54
+      "date": "2012-11-01",
+      "ratio": 0.3114,
+      "chinext": 701.78,
+      "dividend": 2253.33
     },
     {
-      "date": "2018-03-22",
-      "ratio": 0.3831,
-      "chinext": 1817.23,
-      "dividend": 4743.82
+      "date": "2012-11-02",
+      "ratio": 0.3094,
+      "chinext": 701.38,
+      "dividend": 2266.62
     },
     {
-      "date": "2018-03-23",
-      "ratio": 0.3746,
-      "chinext": 1726.02,
-      "dividend": 4607.29
+      "date": "2012-11-05",
+      "ratio": 0.3059,
+      "chinext": 692.87,
+      "dividend": 2265.33
     },
     {
-      "date": "2018-03-26",
-      "ratio": 0.3898,
-      "chinext": 1780.61,
-      "dividend": 4568.44
+      "date": "2012-11-06",
+      "ratio": 0.3059,
+      "chinext": 690.5,
+      "dividend": 2257.55
     },
     {
-      "date": "2018-03-27",
-      "ratio": 0.4022,
-      "chinext": 1844.69,
-      "dividend": 4586.77
+      "date": "2012-11-07",
+      "ratio": 0.3062,
+      "chinext": 689.75,
+      "dividend": 2252.92
     },
     {
-      "date": "2018-03-28",
-      "ratio": 0.4059,
-      "chinext": 1835.15,
-      "dividend": 4521.3
+      "date": "2012-11-08",
+      "ratio": 0.3056,
+      "chinext": 675.85,
+      "dividend": 2211.83
     },
     {
-      "date": "2018-03-29",
-      "ratio": 0.4005,
-      "chinext": 1842.19,
-      "dividend": 4599.43
+      "date": "2012-11-09",
+      "ratio": 0.3048,
+      "chinext": 672.67,
+      "dividend": 2206.79
     },
     {
-      "date": "2018-03-30",
-      "ratio": 0.413,
-      "chinext": 1900.48,
-      "dividend": 4601.87
+      "date": "2012-11-12",
+      "ratio": 0.3048,
+      "chinext": 676.6,
+      "dividend": 2219.91
     },
     {
-      "date": "2018-04-02",
-      "ratio": 0.415,
-      "chinext": 1900.25,
-      "dividend": 4578.51
+      "date": "2012-11-13",
+      "ratio": 0.3055,
+      "chinext": 667.33,
+      "dividend": 2184.23
     },
     {
-      "date": "2018-04-03",
-      "ratio": 0.4131,
-      "chinext": 1872.47,
-      "dividend": 4533.22
+      "date": "2012-11-14",
+      "ratio": 0.303,
+      "chinext": 665.18,
+      "dividend": 2195.24
     },
     {
-      "date": "2018-04-04",
-      "ratio": 0.4055,
-      "chinext": 1836.81,
-      "dividend": 4529.76
+      "date": "2012-11-15",
+      "ratio": 0.3043,
+      "chinext": 659.21,
+      "dividend": 2166.31
     },
     {
-      "date": "2018-04-09",
-      "ratio": 0.4074,
-      "chinext": 1841.65,
-      "dividend": 4520.92
+      "date": "2012-11-16",
+      "ratio": 0.3048,
+      "chinext": 656.2,
+      "dividend": 2152.7
     },
     {
-      "date": "2018-04-10",
-      "ratio": 0.3993,
-      "chinext": 1835.52,
-      "dividend": 4597.2
+      "date": "2012-11-19",
+      "ratio": 0.3046,
+      "chinext": 656.94,
+      "dividend": 2156.48
     },
     {
-      "date": "2018-04-11",
-      "ratio": 0.3969,
-      "chinext": 1834.63,
-      "dividend": 4622.61
+      "date": "2012-11-20",
+      "ratio": 0.3062,
+      "chinext": 656.61,
+      "dividend": 2144.27
     },
     {
-      "date": "2018-04-12",
-      "ratio": 0.3988,
-      "chinext": 1826.89,
-      "dividend": 4580.81
+      "date": "2012-11-21",
+      "ratio": 0.3039,
+      "chinext": 660.03,
+      "dividend": 2171.96
     },
     {
-      "date": "2018-04-13",
-      "ratio": 0.4001,
-      "chinext": 1824.59,
-      "dividend": 4559.85
+      "date": "2012-11-22",
+      "ratio": 0.3023,
+      "chinext": 651.83,
+      "dividend": 2156.54
     },
     {
-      "date": "2018-04-16",
-      "ratio": 0.4101,
-      "chinext": 1838.71,
-      "dividend": 4483.79
+      "date": "2012-11-23",
+      "ratio": 0.2999,
+      "chinext": 651.43,
+      "dividend": 2172.45
     },
     {
-      "date": "2018-04-17",
-      "ratio": 0.4025,
-      "chinext": 1783.74,
-      "dividend": 4432.05
+      "date": "2012-11-26",
+      "ratio": 0.2959,
+      "chinext": 638.88,
+      "dividend": 2158.84
     },
     {
-      "date": "2018-04-18",
-      "ratio": 0.4095,
-      "chinext": 1822.26,
-      "dividend": 4450.5
+      "date": "2012-11-27",
+      "ratio": 0.2886,
+      "chinext": 616.28,
+      "dividend": 2135.12
     },
     {
-      "date": "2018-04-19",
-      "ratio": 0.4052,
-      "chinext": 1820.28,
-      "dividend": 4492.2
+      "date": "2012-11-28",
+      "ratio": 0.2864,
+      "chinext": 607.67,
+      "dividend": 2121.6
     },
     {
-      "date": "2018-04-20",
-      "ratio": 0.4024,
-      "chinext": 1782.81,
-      "dividend": 4429.92
+      "date": "2012-11-29",
+      "ratio": 0.287,
+      "chinext": 603.17,
+      "dividend": 2101.96
     },
     {
-      "date": "2018-04-23",
-      "ratio": 0.3956,
-      "chinext": 1753.05,
-      "dividend": 4431.92
+      "date": "2012-11-30",
+      "ratio": 0.2859,
+      "chinext": 606.77,
+      "dividend": 2122.61
     },
     {
-      "date": "2018-04-24",
-      "ratio": 0.3996,
-      "chinext": 1806.86,
-      "dividend": 4521.88
+      "date": "2012-12-03",
+      "ratio": 0.2833,
+      "chinext": 593.66,
+      "dividend": 2095.63
     },
     {
-      "date": "2018-04-25",
-      "ratio": 0.4035,
-      "chinext": 1819.41,
-      "dividend": 4508.58
+      "date": "2012-12-04",
+      "ratio": 0.2839,
+      "chinext": 600.8,
+      "dividend": 2116.31
     },
     {
-      "date": "2018-04-26",
-      "ratio": 0.4011,
-      "chinext": 1781.28,
-      "dividend": 4440.74
+      "date": "2012-12-05",
+      "ratio": 0.2855,
+      "chinext": 624.82,
+      "dividend": 2188.24
     },
     {
-      "date": "2018-04-27",
-      "ratio": 0.4066,
-      "chinext": 1805.6,
-      "dividend": 4440.9
+      "date": "2012-12-06",
+      "ratio": 0.2853,
+      "chinext": 624.32,
+      "dividend": 2188.37
     },
     {
-      "date": "2018-05-02",
-      "ratio": 0.4038,
-      "chinext": 1801.57,
-      "dividend": 4461.71
+      "date": "2012-12-07",
+      "ratio": 0.2854,
+      "chinext": 637.49,
+      "dividend": 2233.74
     },
     {
-      "date": "2018-05-03",
-      "ratio": 0.4064,
-      "chinext": 1826.79,
-      "dividend": 4494.9
+      "date": "2012-12-10",
+      "ratio": 0.2867,
+      "chinext": 646.32,
+      "dividend": 2254.46
     },
     {
-      "date": "2018-05-04",
+      "date": "2012-12-11",
+      "ratio": 0.2855,
+      "chinext": 641.17,
+      "dividend": 2245.71
+    },
+    {
+      "date": "2012-12-12",
+      "ratio": 0.284,
+      "chinext": 639.51,
+      "dividend": 2252.04
+    },
+    {
+      "date": "2012-12-13",
+      "ratio": 0.2838,
+      "chinext": 632.18,
+      "dividend": 2227.79
+    },
+    {
+      "date": "2012-12-14",
+      "ratio": 0.2802,
+      "chinext": 656.22,
+      "dividend": 2341.72
+    },
+    {
+      "date": "2012-12-17",
+      "ratio": 0.2757,
+      "chinext": 649.61,
+      "dividend": 2356.29
+    },
+    {
+      "date": "2012-12-18",
+      "ratio": 0.2738,
+      "chinext": 646.05,
+      "dividend": 2359.99
+    },
+    {
+      "date": "2012-12-19",
+      "ratio": 0.2758,
+      "chinext": 652.1,
+      "dividend": 2364.72
+    },
+    {
+      "date": "2012-12-20",
+      "ratio": 0.2772,
+      "chinext": 658.31,
+      "dividend": 2375.14
+    },
+    {
+      "date": "2012-12-21",
+      "ratio": 0.2835,
+      "chinext": 668.09,
+      "dividend": 2356.82
+    },
+    {
+      "date": "2012-12-24",
+      "ratio": 0.2866,
+      "chinext": 679.76,
+      "dividend": 2371.53
+    },
+    {
+      "date": "2012-12-25",
+      "ratio": 0.284,
+      "chinext": 694.12,
+      "dividend": 2444.26
+    },
+    {
+      "date": "2012-12-26",
+      "ratio": 0.2896,
+      "chinext": 709.08,
+      "dividend": 2448.07
+    },
+    {
+      "date": "2012-12-27",
+      "ratio": 0.2873,
+      "chinext": 699.57,
+      "dividend": 2434.65
+    },
+    {
+      "date": "2012-12-28",
+      "ratio": 0.2853,
+      "chinext": 707.67,
+      "dividend": 2480.31
+    },
+    {
+      "date": "2012-12-31",
+      "ratio": 0.2821,
+      "chinext": 713.86,
+      "dividend": 2530.56
+    },
+    {
+      "date": "2013-01-04",
+      "ratio": 0.2784,
+      "chinext": 705.34,
+      "dividend": 2533.88
+    },
+    {
+      "date": "2013-01-07",
+      "ratio": 0.2808,
+      "chinext": 718.11,
+      "dividend": 2557.82
+    },
+    {
+      "date": "2013-01-08",
+      "ratio": 0.2887,
+      "chinext": 733.14,
+      "dividend": 2539.62
+    },
+    {
+      "date": "2013-01-09",
+      "ratio": 0.2896,
+      "chinext": 734.51,
+      "dividend": 2536.05
+    },
+    {
+      "date": "2013-01-10",
+      "ratio": 0.2919,
+      "chinext": 741.18,
+      "dividend": 2539.1
+    },
+    {
+      "date": "2013-01-11",
+      "ratio": 0.2939,
+      "chinext": 731.59,
+      "dividend": 2488.88
+    },
+    {
+      "date": "2013-01-14",
+      "ratio": 0.2937,
+      "chinext": 760.55,
+      "dividend": 2589.42
+    },
+    {
+      "date": "2013-01-15",
+      "ratio": 0.3,
+      "chinext": 778.6,
+      "dividend": 2595.64
+    },
+    {
+      "date": "2013-01-16",
+      "ratio": 0.3021,
+      "chinext": 774.48,
+      "dividend": 2563.55
+    },
+    {
+      "date": "2013-01-17",
+      "ratio": 0.3019,
+      "chinext": 768.31,
+      "dividend": 2545.13
+    },
+    {
+      "date": "2013-01-18",
+      "ratio": 0.3045,
+      "chinext": 787.39,
+      "dividend": 2585.71
+    },
+    {
+      "date": "2013-01-21",
+      "ratio": 0.3036,
+      "chinext": 792.6,
+      "dividend": 2610.98
+    },
+    {
+      "date": "2013-01-22",
+      "ratio": 0.2976,
+      "chinext": 775.14,
+      "dividend": 2604.44
+    },
+    {
+      "date": "2013-01-23",
+      "ratio": 0.2974,
+      "chinext": 778.48,
+      "dividend": 2617.53
+    },
+    {
+      "date": "2013-01-24",
+      "ratio": 0.2913,
+      "chinext": 757.87,
+      "dividend": 2602.12
+    },
+    {
+      "date": "2013-01-25",
+      "ratio": 0.2944,
+      "chinext": 762.85,
+      "dividend": 2590.99
+    },
+    {
+      "date": "2013-01-28",
+      "ratio": 0.2916,
+      "chinext": 784.76,
+      "dividend": 2691.19
+    },
+    {
+      "date": "2013-01-29",
+      "ratio": 0.2905,
+      "chinext": 791.67,
+      "dividend": 2725.57
+    },
+    {
+      "date": "2013-01-30",
+      "ratio": 0.2863,
+      "chinext": 783.68,
+      "dividend": 2737.06
+    },
+    {
+      "date": "2013-01-31",
+      "ratio": 0.2824,
+      "chinext": 776.01,
+      "dividend": 2747.54
+    },
+    {
+      "date": "2013-02-01",
+      "ratio": 0.2767,
+      "chinext": 782.36,
+      "dividend": 2827.14
+    },
+    {
+      "date": "2013-02-04",
+      "ratio": 0.2719,
+      "chinext": 771.9,
+      "dividend": 2838.89
+    },
+    {
+      "date": "2013-02-05",
+      "ratio": 0.2744,
+      "chinext": 780.98,
+      "dividend": 2846.05
+    },
+    {
+      "date": "2013-02-06",
+      "ratio": 0.2777,
+      "chinext": 791.26,
+      "dividend": 2849.3
+    },
+    {
+      "date": "2013-02-07",
+      "ratio": 0.2874,
+      "chinext": 805.59,
+      "dividend": 2802.76
+    },
+    {
+      "date": "2013-02-08",
+      "ratio": 0.2947,
+      "chinext": 823.03,
+      "dividend": 2792.69
+    },
+    {
+      "date": "2013-02-18",
+      "ratio": 0.3015,
+      "chinext": 835.28,
+      "dividend": 2770.0
+    },
+    {
+      "date": "2013-02-19",
+      "ratio": 0.2995,
+      "chinext": 819.71,
+      "dividend": 2736.57
+    },
+    {
+      "date": "2013-02-20",
+      "ratio": 0.311,
+      "chinext": 850.86,
+      "dividend": 2736.21
+    },
+    {
+      "date": "2013-02-21",
+      "ratio": 0.3193,
+      "chinext": 839.3,
+      "dividend": 2628.51
+    },
+    {
+      "date": "2013-02-22",
+      "ratio": 0.3226,
+      "chinext": 838.76,
+      "dividend": 2600.31
+    },
+    {
+      "date": "2013-02-25",
+      "ratio": 0.3266,
+      "chinext": 855.69,
+      "dividend": 2620.09
+    },
+    {
+      "date": "2013-02-26",
+      "ratio": 0.3288,
+      "chinext": 851.22,
+      "dividend": 2588.94
+    },
+    {
+      "date": "2013-02-27",
+      "ratio": 0.3224,
+      "chinext": 846.09,
+      "dividend": 2624.57
+    },
+    {
+      "date": "2013-02-28",
+      "ratio": 0.3175,
+      "chinext": 861.09,
+      "dividend": 2712.25
+    },
+    {
+      "date": "2013-03-01",
+      "ratio": 0.3272,
+      "chinext": 884.89,
+      "dividend": 2704.47
+    },
+    {
+      "date": "2013-03-04",
+      "ratio": 0.3353,
+      "chinext": 863.5,
+      "dividend": 2575.15
+    },
+    {
+      "date": "2013-03-05",
+      "ratio": 0.3307,
+      "chinext": 888.1,
+      "dividend": 2685.24
+    },
+    {
+      "date": "2013-03-06",
+      "ratio": 0.3329,
+      "chinext": 902.9,
+      "dividend": 2712.17
+    },
+    {
+      "date": "2013-03-07",
+      "ratio": 0.3282,
+      "chinext": 877.34,
+      "dividend": 2673.23
+    },
+    {
+      "date": "2013-03-08",
+      "ratio": 0.3241,
+      "chinext": 864.7,
+      "dividend": 2667.83
+    },
+    {
+      "date": "2013-03-11",
+      "ratio": 0.3294,
+      "chinext": 869.15,
+      "dividend": 2638.26
+    },
+    {
+      "date": "2013-03-12",
+      "ratio": 0.324,
+      "chinext": 839.84,
+      "dividend": 2592.09
+    },
+    {
+      "date": "2013-03-13",
+      "ratio": 0.3248,
+      "chinext": 834.05,
+      "dividend": 2567.68
+    },
+    {
+      "date": "2013-03-14",
+      "ratio": 0.3267,
+      "chinext": 842.04,
+      "dividend": 2577.33
+    },
+    {
+      "date": "2013-03-15",
+      "ratio": 0.3298,
+      "chinext": 853.91,
+      "dividend": 2589.29
+    },
+    {
+      "date": "2013-03-18",
+      "ratio": 0.3334,
+      "chinext": 852.12,
+      "dividend": 2555.56
+    },
+    {
+      "date": "2013-03-19",
+      "ratio": 0.3259,
+      "chinext": 842.68,
+      "dividend": 2586.03
+    },
+    {
+      "date": "2013-03-20",
+      "ratio": 0.3232,
+      "chinext": 866.27,
+      "dividend": 2680.1
+    },
+    {
+      "date": "2013-03-21",
+      "ratio": 0.3294,
+      "chinext": 882.73,
+      "dividend": 2679.44
+    },
+    {
+      "date": "2013-03-22",
+      "ratio": 0.329,
+      "chinext": 882.0,
+      "dividend": 2680.53
+    },
+    {
+      "date": "2013-03-25",
+      "ratio": 0.33,
+      "chinext": 881.76,
+      "dividend": 2672.02
+    },
+    {
+      "date": "2013-03-26",
+      "ratio": 0.3344,
+      "chinext": 876.36,
+      "dividend": 2620.31
+    },
+    {
+      "date": "2013-03-27",
+      "ratio": 0.3357,
+      "chinext": 882.75,
+      "dividend": 2629.94
+    },
+    {
+      "date": "2013-03-28",
+      "ratio": 0.3444,
+      "chinext": 867.51,
+      "dividend": 2519.02
+    },
+    {
+      "date": "2013-03-29",
+      "ratio": 0.3435,
+      "chinext": 866.46,
+      "dividend": 2522.28
+    },
+    {
+      "date": "2013-04-01",
+      "ratio": 0.3487,
+      "chinext": 877.0,
+      "dividend": 2515.21
+    },
+    {
+      "date": "2013-04-02",
+      "ratio": 0.3368,
+      "chinext": 845.16,
+      "dividend": 2509.64
+    },
+    {
+      "date": "2013-04-03",
+      "ratio": 0.332,
+      "chinext": 835.14,
+      "dividend": 2515.17
+    },
+    {
+      "date": "2013-04-08",
+      "ratio": 0.3418,
+      "chinext": 853.48,
+      "dividend": 2497.34
+    },
+    {
+      "date": "2013-04-09",
+      "ratio": 0.343,
+      "chinext": 861.99,
+      "dividend": 2512.94
+    },
+    {
+      "date": "2013-04-10",
+      "ratio": 0.3398,
+      "chinext": 850.53,
+      "dividend": 2503.3
+    },
+    {
+      "date": "2013-04-11",
+      "ratio": 0.3391,
+      "chinext": 847.78,
+      "dividend": 2500.0
+    },
+    {
+      "date": "2013-04-12",
+      "ratio": 0.3409,
+      "chinext": 846.61,
+      "dividend": 2483.29
+    },
+    {
+      "date": "2013-04-15",
+      "ratio": 0.3398,
+      "chinext": 836.34,
+      "dividend": 2461.53
+    },
+    {
+      "date": "2013-04-16",
+      "ratio": 0.3431,
+      "chinext": 846.05,
+      "dividend": 2466.09
+    },
+    {
+      "date": "2013-04-17",
+      "ratio": 0.3546,
+      "chinext": 867.51,
+      "dividend": 2446.4
+    },
+    {
+      "date": "2013-04-18",
+      "ratio": 0.3553,
+      "chinext": 873.48,
+      "dividend": 2458.15
+    },
+    {
+      "date": "2013-04-19",
+      "ratio": 0.3504,
+      "chinext": 892.21,
+      "dividend": 2546.2
+    },
+    {
+      "date": "2013-04-22",
+      "ratio": 0.359,
+      "chinext": 916.02,
+      "dividend": 2551.28
+    },
+    {
+      "date": "2013-04-23",
+      "ratio": 0.3612,
+      "chinext": 893.79,
+      "dividend": 2474.72
+    },
+    {
+      "date": "2013-04-24",
+      "ratio": 0.3664,
+      "chinext": 923.41,
+      "dividend": 2520.55
+    },
+    {
+      "date": "2013-04-25",
+      "ratio": 0.362,
+      "chinext": 903.63,
+      "dividend": 2496.1
+    },
+    {
+      "date": "2013-04-26",
+      "ratio": 0.3594,
+      "chinext": 889.38,
+      "dividend": 2474.5
+    },
+    {
+      "date": "2013-05-02",
+      "ratio": 0.3682,
+      "chinext": 913.65,
+      "dividend": 2481.07
+    },
+    {
+      "date": "2013-05-03",
+      "ratio": 0.3722,
+      "chinext": 939.21,
+      "dividend": 2523.52
+    },
+    {
+      "date": "2013-05-06",
+      "ratio": 0.3757,
+      "chinext": 958.02,
+      "dividend": 2549.82
+    },
+    {
+      "date": "2013-05-07",
+      "ratio": 0.3758,
+      "chinext": 957.44,
+      "dividend": 2547.79
+    },
+    {
+      "date": "2013-05-08",
+      "ratio": 0.3838,
+      "chinext": 980.08,
+      "dividend": 2553.75
+    },
+    {
+      "date": "2013-05-09",
+      "ratio": 0.3906,
+      "chinext": 992.16,
+      "dividend": 2539.82
+    },
+    {
+      "date": "2013-05-10",
+      "ratio": 0.3869,
+      "chinext": 988.3,
+      "dividend": 2554.39
+    },
+    {
+      "date": "2013-05-13",
+      "ratio": 0.3906,
+      "chinext": 995.11,
+      "dividend": 2547.48
+    },
+    {
+      "date": "2013-05-14",
+      "ratio": 0.3871,
+      "chinext": 976.33,
+      "dividend": 2522.44
+    },
+    {
+      "date": "2013-05-15",
+      "ratio": 0.3992,
+      "chinext": 1012.66,
+      "dividend": 2536.5
+    },
+    {
+      "date": "2013-05-16",
+      "ratio": 0.3921,
+      "chinext": 1009.53,
+      "dividend": 2574.46
+    },
+    {
+      "date": "2013-05-17",
+      "ratio": 0.3927,
+      "chinext": 1023.4,
+      "dividend": 2606.19
+    },
+    {
+      "date": "2013-05-20",
+      "ratio": 0.3999,
+      "chinext": 1051.65,
+      "dividend": 2629.8
+    },
+    {
+      "date": "2013-05-21",
+      "ratio": 0.4092,
+      "chinext": 1073.58,
+      "dividend": 2623.32
+    },
+    {
+      "date": "2013-05-22",
+      "ratio": 0.396,
+      "chinext": 1039.81,
+      "dividend": 2625.85
+    },
+    {
+      "date": "2013-05-23",
+      "ratio": 0.4043,
+      "chinext": 1042.9,
+      "dividend": 2579.44
+    },
+    {
+      "date": "2013-05-24",
+      "ratio": 0.4147,
+      "chinext": 1073.78,
+      "dividend": 2589.42
+    },
+    {
+      "date": "2013-05-27",
+      "ratio": 0.4204,
+      "chinext": 1089.72,
+      "dividend": 2591.84
+    },
+    {
+      "date": "2013-05-28",
+      "ratio": 0.4012,
+      "chinext": 1059.0,
+      "dividend": 2639.61
+    },
+    {
+      "date": "2013-05-29",
       "ratio": 0.4049,
-      "chinext": 1814.85,
-      "dividend": 4482.6
+      "chinext": 1065.96,
+      "dividend": 2632.81
     },
     {
-      "date": "2018-05-07",
-      "ratio": 0.4072,
-      "chinext": 1852.34,
-      "dividend": 4549.22
+      "date": "2013-05-30",
+      "ratio": 0.408,
+      "chinext": 1073.87,
+      "dividend": 2632.26
     },
     {
-      "date": "2018-05-08",
-      "ratio": 0.4048,
-      "chinext": 1856.87,
-      "dividend": 4586.68
+      "date": "2013-05-31",
+      "ratio": 0.4106,
+      "chinext": 1073.02,
+      "dividend": 2613.04
     },
     {
-      "date": "2018-05-09",
-      "ratio": 0.4051,
-      "chinext": 1855.81,
-      "dividend": 4581.58
+      "date": "2013-06-03",
+      "ratio": 0.4041,
+      "chinext": 1052.14,
+      "dividend": 2603.85
     },
     {
-      "date": "2018-05-10",
-      "ratio": 0.4047,
-      "chinext": 1865.36,
-      "dividend": 4608.94
-    },
-    {
-      "date": "2018-05-11",
-      "ratio": 0.3998,
-      "chinext": 1834.78,
-      "dividend": 4588.78
-    },
-    {
-      "date": "2018-05-14",
+      "date": "2013-06-04",
       "ratio": 0.3973,
-      "chinext": 1830.98,
-      "dividend": 4608.96
+      "chinext": 1022.46,
+      "dividend": 2573.51
     },
     {
-      "date": "2018-05-15",
-      "ratio": 0.4015,
-      "chinext": 1858.01,
-      "dividend": 4628.16
+      "date": "2013-06-05",
+      "ratio": 0.4038,
+      "chinext": 1032.76,
+      "dividend": 2557.73
     },
     {
-      "date": "2018-05-16",
-      "ratio": 0.4013,
-      "chinext": 1846.67,
-      "dividend": 4601.88
+      "date": "2013-06-06",
+      "ratio": 0.4051,
+      "chinext": 1022.13,
+      "dividend": 2522.91
     },
     {
-      "date": "2018-05-17",
-      "ratio": 0.3994,
-      "chinext": 1831.2,
-      "dividend": 4585.08
+      "date": "2013-06-07",
+      "ratio": 0.4138,
+      "chinext": 1030.14,
+      "dividend": 2489.33
     },
     {
-      "date": "2018-05-18",
-      "ratio": 0.3968,
-      "chinext": 1836.75,
-      "dividend": 4628.82
+      "date": "2013-06-13",
+      "ratio": 0.4279,
+      "chinext": 1029.28,
+      "dividend": 2405.33
     },
     {
-      "date": "2018-05-21",
-      "ratio": 0.4005,
-      "chinext": 1862.48,
-      "dividend": 4650.22
+      "date": "2013-06-14",
+      "ratio": 0.4426,
+      "chinext": 1068.15,
+      "dividend": 2413.09
     },
     {
-      "date": "2018-05-22",
-      "ratio": 0.4045,
-      "chinext": 1876.0,
-      "dividend": 4637.42
+      "date": "2013-06-17",
+      "ratio": 0.4474,
+      "chinext": 1073.69,
+      "dividend": 2399.7
     },
     {
-      "date": "2018-05-23",
-      "ratio": 0.402,
-      "chinext": 1845.97,
-      "dividend": 4591.51
+      "date": "2013-06-18",
+      "ratio": 0.4458,
+      "chinext": 1072.93,
+      "dividend": 2406.49
     },
     {
-      "date": "2018-05-24",
-      "ratio": 0.403,
-      "chinext": 1838.4,
-      "dividend": 4561.82
+      "date": "2013-06-19",
+      "ratio": 0.4488,
+      "chinext": 1067.62,
+      "dividend": 2378.69
     },
     {
-      "date": "2018-05-25",
-      "ratio": 0.3965,
-      "chinext": 1804.55,
-      "dividend": 4551.38
+      "date": "2013-06-20",
+      "ratio": 0.4475,
+      "chinext": 1029.53,
+      "dividend": 2300.6
     },
     {
-      "date": "2018-05-28",
-      "ratio": 0.3937,
-      "chinext": 1796.91,
-      "dividend": 4564.44
+      "date": "2013-06-21",
+      "ratio": 0.4469,
+      "chinext": 1025.5,
+      "dividend": 2294.82
     },
     {
-      "date": "2018-05-29",
-      "ratio": 0.3897,
-      "chinext": 1773.65,
-      "dividend": 4551.26
+      "date": "2013-06-24",
+      "ratio": 0.4524,
+      "chinext": 971.45,
+      "dividend": 2147.48
     },
     {
-      "date": "2018-05-30",
-      "ratio": 0.3865,
-      "chinext": 1726.22,
-      "dividend": 4466.28
+      "date": "2013-06-25",
+      "ratio": 0.4594,
+      "chinext": 984.75,
+      "dividend": 2143.5
     },
     {
-      "date": "2018-05-31",
-      "ratio": 0.3824,
-      "chinext": 1743.74,
-      "dividend": 4559.62
+      "date": "2013-06-26",
+      "ratio": 0.4886,
+      "chinext": 1038.98,
+      "dividend": 2126.25
     },
     {
-      "date": "2018-06-01",
-      "ratio": 0.3776,
-      "chinext": 1709.55,
-      "dividend": 4527.09
+      "date": "2013-06-27",
+      "ratio": 0.48,
+      "chinext": 1022.5,
+      "dividend": 2130.0
     },
     {
-      "date": "2018-06-04",
-      "ratio": 0.3735,
-      "chinext": 1702.93,
-      "dividend": 4559.68
+      "date": "2013-06-28",
+      "ratio": 0.4634,
+      "chinext": 1011.66,
+      "dividend": 2182.98
     },
     {
-      "date": "2018-06-05",
-      "ratio": 0.3813,
-      "chinext": 1746.11,
-      "dividend": 4579.53
+      "date": "2013-07-01",
+      "ratio": 0.4827,
+      "chinext": 1055.84,
+      "dividend": 2187.5
     },
     {
-      "date": "2018-06-06",
-      "ratio": 0.3807,
-      "chinext": 1743.25,
-      "dividend": 4578.86
+      "date": "2013-07-02",
+      "ratio": 0.495,
+      "chinext": 1083.25,
+      "dividend": 2188.53
     },
     {
-      "date": "2018-06-07",
-      "ratio": 0.3804,
-      "chinext": 1730.38,
-      "dividend": 4549.36
+      "date": "2013-07-03",
+      "ratio": 0.5098,
+      "chinext": 1104.58,
+      "dividend": 2166.89
+    },
+    {
+      "date": "2013-07-04",
+      "ratio": 0.4995,
+      "chinext": 1087.9,
+      "dividend": 2178.01
+    },
+    {
+      "date": "2013-07-05",
+      "ratio": 0.4844,
+      "chinext": 1057.27,
+      "dividend": 2182.86
+    },
+    {
+      "date": "2013-07-08",
+      "ratio": 0.4844,
+      "chinext": 1030.6,
+      "dividend": 2127.63
+    },
+    {
+      "date": "2013-07-09",
+      "ratio": 0.4915,
+      "chinext": 1050.71,
+      "dividend": 2137.56
+    },
+    {
+      "date": "2013-07-10",
+      "ratio": 0.4887,
+      "chinext": 1068.86,
+      "dividend": 2186.99
+    },
+    {
+      "date": "2013-07-11",
+      "ratio": 0.468,
+      "chinext": 1080.78,
+      "dividend": 2309.52
+    },
+    {
+      "date": "2013-07-12",
+      "ratio": 0.4871,
+      "chinext": 1096.3,
+      "dividend": 2250.82
+    },
+    {
+      "date": "2013-07-15",
+      "ratio": 0.5005,
+      "chinext": 1139.57,
+      "dividend": 2276.72
+    },
+    {
+      "date": "2013-07-16",
+      "ratio": 0.5009,
+      "chinext": 1143.19,
+      "dividend": 2282.26
+    },
+    {
+      "date": "2013-07-17",
+      "ratio": 0.502,
+      "chinext": 1129.48,
+      "dividend": 2249.85
+    },
+    {
+      "date": "2013-07-18",
+      "ratio": 0.5111,
+      "chinext": 1127.97,
+      "dividend": 2206.85
+    },
+    {
+      "date": "2013-07-19",
+      "ratio": 0.5169,
+      "chinext": 1116.01,
+      "dividend": 2158.99
+    },
+    {
+      "date": "2013-07-22",
+      "ratio": 0.5333,
+      "chinext": 1153.77,
+      "dividend": 2163.49
+    },
+    {
+      "date": "2013-07-23",
+      "ratio": 0.532,
+      "chinext": 1178.59,
+      "dividend": 2215.47
+    },
+    {
+      "date": "2013-07-24",
+      "ratio": 0.5478,
+      "chinext": 1203.31,
+      "dividend": 2196.64
+    },
+    {
+      "date": "2013-07-25",
+      "ratio": 0.5254,
+      "chinext": 1150.39,
+      "dividend": 2189.7
+    },
+    {
+      "date": "2013-07-26",
+      "ratio": 0.5315,
+      "chinext": 1158.35,
+      "dividend": 2179.26
+    },
+    {
+      "date": "2013-07-29",
+      "ratio": 0.5336,
+      "chinext": 1136.98,
+      "dividend": 2130.96
+    },
+    {
+      "date": "2013-07-30",
+      "ratio": 0.5217,
+      "chinext": 1124.1,
+      "dividend": 2154.58
+    },
+    {
+      "date": "2013-07-31",
+      "ratio": 0.5265,
+      "chinext": 1134.02,
+      "dividend": 2153.9
+    },
+    {
+      "date": "2013-08-01",
+      "ratio": 0.5414,
+      "chinext": 1190.11,
+      "dividend": 2198.35
+    },
+    {
+      "date": "2013-08-02",
+      "ratio": 0.542,
+      "chinext": 1188.85,
+      "dividend": 2193.63
+    },
+    {
+      "date": "2013-08-05",
+      "ratio": 0.543,
+      "chinext": 1202.83,
+      "dividend": 2215.02
+    },
+    {
+      "date": "2013-08-06",
+      "ratio": 0.5459,
+      "chinext": 1211.78,
+      "dividend": 2219.65
+    },
+    {
+      "date": "2013-08-07",
+      "ratio": 0.5331,
+      "chinext": 1175.7,
+      "dividend": 2205.55
+    },
+    {
+      "date": "2013-08-08",
+      "ratio": 0.5401,
+      "chinext": 1185.95,
+      "dividend": 2195.76
+    },
+    {
+      "date": "2013-08-09",
+      "ratio": 0.5329,
+      "chinext": 1172.52,
+      "dividend": 2200.1
+    },
+    {
+      "date": "2013-08-12",
+      "ratio": 0.5103,
+      "chinext": 1161.87,
+      "dividend": 2277.05
+    },
+    {
+      "date": "2013-08-13",
+      "ratio": 0.5116,
+      "chinext": 1172.33,
+      "dividend": 2291.72
+    },
+    {
+      "date": "2013-08-14",
+      "ratio": 0.5175,
+      "chinext": 1180.66,
+      "dividend": 2281.63
+    },
+    {
+      "date": "2013-08-15",
+      "ratio": 0.516,
+      "chinext": 1167.09,
+      "dividend": 2261.88
+    },
+    {
+      "date": "2013-08-16",
+      "ratio": 0.5012,
+      "chinext": 1132.09,
+      "dividend": 2258.74
+    },
+    {
+      "date": "2013-08-19",
+      "ratio": 0.5133,
+      "chinext": 1171.4,
+      "dividend": 2282.07
+    },
+    {
+      "date": "2013-08-20",
+      "ratio": 0.5175,
+      "chinext": 1175.78,
+      "dividend": 2271.93
+    },
+    {
+      "date": "2013-08-21",
+      "ratio": 0.5216,
+      "chinext": 1181.34,
+      "dividend": 2264.84
+    },
+    {
+      "date": "2013-08-22",
+      "ratio": 0.5301,
+      "chinext": 1197.13,
+      "dividend": 2258.25
+    },
+    {
+      "date": "2013-08-23",
+      "ratio": 0.5457,
+      "chinext": 1219.82,
+      "dividend": 2235.38
+    },
+    {
+      "date": "2013-08-26",
+      "ratio": 0.5422,
+      "chinext": 1238.17,
+      "dividend": 2283.49
+    },
+    {
+      "date": "2013-08-27",
+      "ratio": 0.5468,
+      "chinext": 1250.75,
+      "dividend": 2287.42
+    },
+    {
+      "date": "2013-08-28",
+      "ratio": 0.5393,
+      "chinext": 1227.99,
+      "dividend": 2276.86
+    },
+    {
+      "date": "2013-08-29",
+      "ratio": 0.5402,
+      "chinext": 1226.3,
+      "dividend": 2270.21
+    },
+    {
+      "date": "2013-08-30",
+      "ratio": 0.5218,
+      "chinext": 1185.15,
+      "dividend": 2271.28
+    },
+    {
+      "date": "2013-09-02",
+      "ratio": 0.531,
+      "chinext": 1210.19,
+      "dividend": 2278.92
+    },
+    {
+      "date": "2013-09-03",
+      "ratio": 0.534,
+      "chinext": 1234.59,
+      "dividend": 2312.03
+    },
+    {
+      "date": "2013-09-04",
+      "ratio": 0.5343,
+      "chinext": 1236.35,
+      "dividend": 2313.87
+    },
+    {
+      "date": "2013-09-05",
+      "ratio": 0.5487,
+      "chinext": 1267.26,
+      "dividend": 2309.52
+    },
+    {
+      "date": "2013-09-06",
+      "ratio": 0.5495,
+      "chinext": 1282.75,
+      "dividend": 2334.44
+    },
+    {
+      "date": "2013-09-09",
+      "ratio": 0.5202,
+      "chinext": 1275.91,
+      "dividend": 2452.79
+    },
+    {
+      "date": "2013-09-10",
+      "ratio": 0.5082,
+      "chinext": 1263.59,
+      "dividend": 2486.61
+    },
+    {
+      "date": "2013-09-11",
+      "ratio": 0.4906,
+      "chinext": 1220.7,
+      "dividend": 2488.3
+    },
+    {
+      "date": "2013-09-12",
+      "ratio": 0.4826,
+      "chinext": 1220.63,
+      "dividend": 2529.42
+    },
+    {
+      "date": "2013-09-13",
+      "ratio": 0.5032,
+      "chinext": 1253.45,
+      "dividend": 2491.18
+    },
+    {
+      "date": "2013-09-16",
+      "ratio": 0.5157,
+      "chinext": 1278.8,
+      "dividend": 2479.95
+    },
+    {
+      "date": "2013-09-17",
+      "ratio": 0.5233,
+      "chinext": 1269.36,
+      "dividend": 2425.65
+    },
+    {
+      "date": "2013-09-18",
+      "ratio": 0.5311,
+      "chinext": 1289.64,
+      "dividend": 2428.38
+    },
+    {
+      "date": "2013-09-23",
+      "ratio": 0.5407,
+      "chinext": 1326.09,
+      "dividend": 2452.33
+    },
+    {
+      "date": "2013-09-24",
+      "ratio": 0.5519,
+      "chinext": 1328.4,
+      "dividend": 2406.8
+    },
+    {
+      "date": "2013-09-25",
+      "ratio": 0.5535,
+      "chinext": 1323.04,
+      "dividend": 2390.45
+    },
+    {
+      "date": "2013-09-26",
+      "ratio": 0.5564,
+      "chinext": 1306.34,
+      "dividend": 2347.96
+    },
+    {
+      "date": "2013-09-27",
+      "ratio": 0.5609,
+      "chinext": 1323.76,
+      "dividend": 2360.04
+    },
+    {
+      "date": "2013-09-30",
+      "ratio": 0.5775,
+      "chinext": 1367.91,
+      "dividend": 2368.54
+    },
+    {
+      "date": "2013-10-08",
+      "ratio": 0.5814,
+      "chinext": 1387.66,
+      "dividend": 2386.91
+    },
+    {
+      "date": "2013-10-09",
+      "ratio": 0.5903,
+      "chinext": 1415.83,
+      "dividend": 2398.35
+    },
+    {
+      "date": "2013-10-10",
+      "ratio": 0.5846,
+      "chinext": 1378.15,
+      "dividend": 2357.41
+    },
+    {
+      "date": "2013-10-11",
+      "ratio": 0.5737,
+      "chinext": 1379.9,
+      "dividend": 2405.47
+    },
+    {
+      "date": "2013-10-14",
+      "ratio": 0.5802,
+      "chinext": 1393.6,
+      "dividend": 2401.93
+    },
+    {
+      "date": "2013-10-15",
+      "ratio": 0.5815,
+      "chinext": 1389.75,
+      "dividend": 2389.82
+    },
+    {
+      "date": "2013-10-16",
+      "ratio": 0.5673,
+      "chinext": 1335.1,
+      "dividend": 2353.48
+    },
+    {
+      "date": "2013-10-17",
+      "ratio": 0.5631,
+      "chinext": 1322.99,
+      "dividend": 2349.47
+    },
+    {
+      "date": "2013-10-18",
+      "ratio": 0.5726,
+      "chinext": 1349.94,
+      "dividend": 2357.62
+    },
+    {
+      "date": "2013-10-21",
+      "ratio": 0.5854,
+      "chinext": 1400.97,
+      "dividend": 2393.2
+    },
+    {
+      "date": "2013-10-22",
+      "ratio": 0.5695,
+      "chinext": 1350.47,
+      "dividend": 2371.29
+    },
+    {
+      "date": "2013-10-23",
+      "ratio": 0.5559,
+      "chinext": 1311.23,
+      "dividend": 2358.86
+    },
+    {
+      "date": "2013-10-24",
+      "ratio": 0.5546,
+      "chinext": 1295.93,
+      "dividend": 2336.71
+    },
+    {
+      "date": "2013-10-25",
+      "ratio": 0.5465,
+      "chinext": 1269.17,
+      "dividend": 2322.35
+    },
+    {
+      "date": "2013-10-28",
+      "ratio": 0.5511,
+      "chinext": 1279.05,
+      "dividend": 2320.84
+    },
+    {
+      "date": "2013-10-29",
+      "ratio": 0.5377,
+      "chinext": 1261.68,
+      "dividend": 2346.5
+    },
+    {
+      "date": "2013-10-30",
+      "ratio": 0.5359,
+      "chinext": 1273.29,
+      "dividend": 2375.87
+    },
+    {
+      "date": "2013-10-31",
+      "ratio": 0.5273,
+      "chinext": 1235.56,
+      "dividend": 2343.25
+    },
+    {
+      "date": "2013-11-01",
+      "ratio": 0.5172,
+      "chinext": 1221.96,
+      "dividend": 2362.66
+    },
+    {
+      "date": "2013-11-04",
+      "ratio": 0.5191,
+      "chinext": 1222.46,
+      "dividend": 2354.87
+    },
+    {
+      "date": "2013-11-05",
+      "ratio": 0.5362,
+      "chinext": 1260.03,
+      "dividend": 2349.8
+    },
+    {
+      "date": "2013-11-06",
+      "ratio": 0.5349,
+      "chinext": 1241.79,
+      "dividend": 2321.5
+    },
+    {
+      "date": "2013-11-07",
+      "ratio": 0.5273,
+      "chinext": 1224.05,
+      "dividend": 2321.38
+    },
+    {
+      "date": "2013-11-08",
+      "ratio": 0.5282,
+      "chinext": 1211.11,
+      "dividend": 2293.03
+    },
+    {
+      "date": "2013-11-11",
+      "ratio": 0.5276,
+      "chinext": 1212.69,
+      "dividend": 2298.48
+    },
+    {
+      "date": "2013-11-12",
+      "ratio": 0.5292,
+      "chinext": 1228.35,
+      "dividend": 2321.29
+    },
+    {
+      "date": "2013-11-13",
+      "ratio": 0.5364,
+      "chinext": 1212.08,
+      "dividend": 2259.54
+    },
+    {
+      "date": "2013-11-14",
+      "ratio": 0.5535,
+      "chinext": 1249.67,
+      "dividend": 2257.9
+    },
+    {
+      "date": "2013-11-15",
+      "ratio": 0.5524,
+      "chinext": 1269.05,
+      "dividend": 2297.48
+    },
+    {
+      "date": "2013-11-18",
+      "ratio": 0.5408,
+      "chinext": 1291.15,
+      "dividend": 2387.37
+    },
+    {
+      "date": "2013-11-19",
+      "ratio": 0.5482,
+      "chinext": 1298.17,
+      "dividend": 2368.06
+    },
+    {
+      "date": "2013-11-20",
+      "ratio": 0.5468,
+      "chinext": 1299.26,
+      "dividend": 2376.08
+    },
+    {
+      "date": "2013-11-21",
+      "ratio": 0.5487,
+      "chinext": 1298.95,
+      "dividend": 2367.19
+    },
+    {
+      "date": "2013-11-22",
+      "ratio": 0.5489,
+      "chinext": 1295.07,
+      "dividend": 2359.4
+    },
+    {
+      "date": "2013-11-25",
+      "ratio": 0.552,
+      "chinext": 1293.8,
+      "dividend": 2343.85
+    },
+    {
+      "date": "2013-11-26",
+      "ratio": 0.5519,
+      "chinext": 1291.85,
+      "dividend": 2340.9
+    },
+    {
+      "date": "2013-11-27",
+      "ratio": 0.5626,
+      "chinext": 1329.48,
+      "dividend": 2363.18
+    },
+    {
+      "date": "2013-11-28",
+      "ratio": 0.5612,
+      "chinext": 1336.66,
+      "dividend": 2381.88
+    },
+    {
+      "date": "2013-11-29",
+      "ratio": 0.5745,
+      "chinext": 1366.83,
+      "dividend": 2379.23
+    },
+    {
+      "date": "2013-12-02",
+      "ratio": 0.5218,
+      "chinext": 1253.93,
+      "dividend": 2403.25
+    },
+    {
+      "date": "2013-12-03",
+      "ratio": 0.5209,
+      "chinext": 1255.33,
+      "dividend": 2409.97
+    },
+    {
+      "date": "2013-12-04",
+      "ratio": 0.5102,
+      "chinext": 1240.29,
+      "dividend": 2431.09
+    },
+    {
+      "date": "2013-12-05",
+      "ratio": 0.496,
+      "chinext": 1202.07,
+      "dividend": 2423.7
+    },
+    {
+      "date": "2013-12-06",
+      "ratio": 0.5008,
+      "chinext": 1206.78,
+      "dividend": 2409.67
+    },
+    {
+      "date": "2013-12-09",
+      "ratio": 0.5165,
+      "chinext": 1241.71,
+      "dividend": 2403.98
+    },
+    {
+      "date": "2013-12-10",
+      "ratio": 0.5115,
+      "chinext": 1231.92,
+      "dividend": 2408.32
+    },
+    {
+      "date": "2013-12-11",
+      "ratio": 0.5262,
+      "chinext": 1244.51,
+      "dividend": 2364.87
+    },
+    {
+      "date": "2013-12-12",
+      "ratio": 0.5428,
+      "chinext": 1279.32,
+      "dividend": 2356.75
+    },
+    {
+      "date": "2013-12-13",
+      "ratio": 0.5449,
+      "chinext": 1278.14,
+      "dividend": 2345.69
+    },
+    {
+      "date": "2013-12-16",
+      "ratio": 0.5507,
+      "chinext": 1279.96,
+      "dividend": 2324.41
+    },
+    {
+      "date": "2013-12-17",
+      "ratio": 0.5485,
+      "chinext": 1267.67,
+      "dividend": 2311.25
+    },
+    {
+      "date": "2013-12-18",
+      "ratio": 0.5438,
+      "chinext": 1256.0,
+      "dividend": 2309.8
+    },
+    {
+      "date": "2013-12-19",
+      "ratio": 0.5484,
+      "chinext": 1256.08,
+      "dividend": 2290.56
+    },
+    {
+      "date": "2013-12-20",
+      "ratio": 0.5574,
+      "chinext": 1253.71,
+      "dividend": 2249.01
+    },
+    {
+      "date": "2013-12-23",
+      "ratio": 0.5522,
+      "chinext": 1242.81,
+      "dividend": 2250.55
+    },
+    {
+      "date": "2013-12-24",
+      "ratio": 0.5572,
+      "chinext": 1258.82,
+      "dividend": 2259.25
+    },
+    {
+      "date": "2013-12-25",
+      "ratio": 0.5668,
+      "chinext": 1288.34,
+      "dividend": 2273.16
+    },
+    {
+      "date": "2013-12-26",
+      "ratio": 0.5699,
+      "chinext": 1269.54,
+      "dividend": 2227.46
+    },
+    {
+      "date": "2013-12-27",
+      "ratio": 0.5718,
+      "chinext": 1294.3,
+      "dividend": 2263.49
+    },
+    {
+      "date": "2013-12-30",
+      "ratio": 0.5802,
+      "chinext": 1307.99,
+      "dividend": 2254.5
+    },
+    {
+      "date": "2013-12-31",
+      "ratio": 0.5737,
+      "chinext": 1304.44,
+      "dividend": 2273.68
+    },
+    {
+      "date": "2014-01-02",
+      "ratio": 0.5872,
+      "chinext": 1333.0,
+      "dividend": 2270.2
+    },
+    {
+      "date": "2014-01-03",
+      "ratio": 0.6035,
+      "chinext": 1352.84,
+      "dividend": 2241.65
+    },
+    {
+      "date": "2014-01-06",
+      "ratio": 0.6044,
+      "chinext": 1323.33,
+      "dividend": 2189.62
+    },
+    {
+      "date": "2014-01-07",
+      "ratio": 0.6174,
+      "chinext": 1352.28,
+      "dividend": 2190.44
+    },
+    {
+      "date": "2014-01-08",
+      "ratio": 0.6434,
+      "chinext": 1405.02,
+      "dividend": 2183.66
+    },
+    {
+      "date": "2014-01-09",
+      "ratio": 0.639,
+      "chinext": 1380.24,
+      "dividend": 2159.87
+    },
+    {
+      "date": "2014-01-10",
+      "ratio": 0.6326,
+      "chinext": 1353.3,
+      "dividend": 2139.32
+    },
+    {
+      "date": "2014-01-13",
+      "ratio": 0.6382,
+      "chinext": 1362.79,
+      "dividend": 2135.31
+    },
+    {
+      "date": "2014-01-14",
+      "ratio": 0.6475,
+      "chinext": 1400.92,
+      "dividend": 2163.46
+    },
+    {
+      "date": "2014-01-15",
+      "ratio": 0.6555,
+      "chinext": 1415.32,
+      "dividend": 2159.0
+    },
+    {
+      "date": "2014-01-16",
+      "ratio": 0.6441,
+      "chinext": 1395.16,
+      "dividend": 2166.07
+    },
+    {
+      "date": "2014-01-17",
+      "ratio": 0.6506,
+      "chinext": 1395.51,
+      "dividend": 2144.96
+    },
+    {
+      "date": "2014-01-20",
+      "ratio": 0.643,
+      "chinext": 1372.74,
+      "dividend": 2134.88
+    },
+    {
+      "date": "2014-01-21",
+      "ratio": 0.6527,
+      "chinext": 1407.15,
+      "dividend": 2155.97
+    },
+    {
+      "date": "2014-01-22",
+      "ratio": 0.6493,
+      "chinext": 1431.74,
+      "dividend": 2205.19
+    },
+    {
+      "date": "2014-01-23",
+      "ratio": 0.665,
+      "chinext": 1461.53,
+      "dividend": 2197.73
+    },
+    {
+      "date": "2014-01-24",
+      "ratio": 0.67,
+      "chinext": 1484.43,
+      "dividend": 2215.62
+    },
+    {
+      "date": "2014-01-27",
+      "ratio": 0.6726,
+      "chinext": 1477.67,
+      "dividend": 2196.81
+    },
+    {
+      "date": "2014-01-28",
+      "ratio": 0.6673,
+      "chinext": 1471.34,
+      "dividend": 2205.04
+    },
+    {
+      "date": "2014-01-29",
+      "ratio": 0.672,
+      "chinext": 1496.53,
+      "dividend": 2226.97
+    },
+    {
+      "date": "2014-01-30",
+      "ratio": 0.6774,
+      "chinext": 1495.98,
+      "dividend": 2208.28
+    },
+    {
+      "date": "2014-02-07",
+      "ratio": 0.6869,
+      "chinext": 1532.69,
+      "dividend": 2231.44
+    },
+    {
+      "date": "2014-02-10",
+      "ratio": 0.6773,
+      "chinext": 1553.42,
+      "dividend": 2293.5
+    },
+    {
+      "date": "2014-02-11",
+      "ratio": 0.6612,
+      "chinext": 1527.15,
+      "dividend": 2309.5
+    },
+    {
+      "date": "2014-02-12",
+      "ratio": 0.663,
+      "chinext": 1539.97,
+      "dividend": 2322.9
+    },
+    {
+      "date": "2014-02-13",
+      "ratio": 0.6439,
+      "chinext": 1485.13,
+      "dividend": 2306.39
+    },
+    {
+      "date": "2014-02-14",
+      "ratio": 0.6502,
+      "chinext": 1515.78,
+      "dividend": 2331.39
+    },
+    {
+      "date": "2014-02-17",
+      "ratio": 0.6595,
+      "chinext": 1558.62,
+      "dividend": 2363.46
+    },
+    {
+      "date": "2014-02-18",
+      "ratio": 0.6549,
+      "chinext": 1545.34,
+      "dividend": 2359.61
+    },
+    {
+      "date": "2014-02-19",
+      "ratio": 0.6503,
+      "chinext": 1544.4,
+      "dividend": 2375.03
+    },
+    {
+      "date": "2014-02-20",
+      "ratio": 0.64,
+      "chinext": 1515.16,
+      "dividend": 2367.49
+    },
+    {
+      "date": "2014-02-21",
+      "ratio": 0.6499,
+      "chinext": 1519.67,
+      "dividend": 2338.2
+    },
+    {
+      "date": "2014-02-24",
+      "ratio": 0.6671,
+      "chinext": 1540.03,
+      "dividend": 2308.62
+    },
+    {
+      "date": "2014-02-25",
+      "ratio": 0.6563,
+      "chinext": 1472.69,
+      "dividend": 2244.06
+    },
+    {
+      "date": "2014-02-26",
+      "ratio": 0.6498,
+      "chinext": 1465.98,
+      "dividend": 2255.98
+    },
+    {
+      "date": "2014-02-27",
+      "ratio": 0.6261,
+      "chinext": 1414.66,
+      "dividend": 2259.42
+    },
+    {
+      "date": "2014-02-28",
+      "ratio": 0.6302,
+      "chinext": 1434.89,
+      "dividend": 2276.91
+    },
+    {
+      "date": "2014-03-03",
+      "ratio": 0.6351,
+      "chinext": 1465.14,
+      "dividend": 2306.77
+    },
+    {
+      "date": "2014-03-04",
+      "ratio": 0.6368,
+      "chinext": 1460.45,
+      "dividend": 2293.36
+    },
+    {
+      "date": "2014-03-05",
+      "ratio": 0.643,
+      "chinext": 1464.58,
+      "dividend": 2277.64
+    },
+    {
+      "date": "2014-03-06",
+      "ratio": 0.6425,
+      "chinext": 1462.53,
+      "dividend": 2276.16
+    },
+    {
+      "date": "2014-03-07",
+      "ratio": 0.6444,
+      "chinext": 1460.61,
+      "dividend": 2266.78
+    },
+    {
+      "date": "2014-03-10",
+      "ratio": 0.6445,
+      "chinext": 1407.07,
+      "dividend": 2183.05
+    },
+    {
+      "date": "2014-03-11",
+      "ratio": 0.6383,
+      "chinext": 1395.81,
+      "dividend": 2186.9
+    },
+    {
+      "date": "2014-03-12",
+      "ratio": 0.6362,
+      "chinext": 1399.27,
+      "dividend": 2199.33
+    },
+    {
+      "date": "2014-03-13",
+      "ratio": 0.6425,
+      "chinext": 1436.86,
+      "dividend": 2236.44
+    },
+    {
+      "date": "2014-03-14",
+      "ratio": 0.6437,
+      "chinext": 1434.02,
+      "dividend": 2227.85
+    },
+    {
+      "date": "2014-03-17",
+      "ratio": 0.6535,
+      "chinext": 1477.42,
+      "dividend": 2260.83
+    },
+    {
+      "date": "2014-03-18",
+      "ratio": 0.6538,
+      "chinext": 1485.64,
+      "dividend": 2272.47
+    },
+    {
+      "date": "2014-03-19",
+      "ratio": 0.648,
+      "chinext": 1466.22,
+      "dividend": 2262.61
+    },
+    {
+      "date": "2014-03-20",
+      "ratio": 0.6396,
+      "chinext": 1417.66,
+      "dividend": 2216.31
+    },
+    {
+      "date": "2014-03-21",
+      "ratio": 0.6255,
+      "chinext": 1419.84,
+      "dividend": 2269.93
+    },
+    {
+      "date": "2014-03-24",
+      "ratio": 0.6104,
+      "chinext": 1397.29,
+      "dividend": 2289.06
+    },
+    {
+      "date": "2014-03-25",
+      "ratio": 0.6082,
+      "chinext": 1394.82,
+      "dividend": 2293.29
+    },
+    {
+      "date": "2014-03-26",
+      "ratio": 0.6171,
+      "chinext": 1417.61,
+      "dividend": 2297.36
+    },
+    {
+      "date": "2014-03-27",
+      "ratio": 0.6033,
+      "chinext": 1367.96,
+      "dividend": 2267.34
+    },
+    {
+      "date": "2014-03-28",
+      "ratio": 0.5925,
+      "chinext": 1330.5,
+      "dividend": 2245.66
+    },
+    {
+      "date": "2014-03-31",
+      "ratio": 0.5916,
+      "chinext": 1327.8,
+      "dividend": 2244.32
+    },
+    {
+      "date": "2014-04-01",
+      "ratio": 0.5952,
+      "chinext": 1355.05,
+      "dividend": 2276.69
+    },
+    {
+      "date": "2014-04-02",
+      "ratio": 0.5784,
+      "chinext": 1327.98,
+      "dividend": 2295.76
+    },
+    {
+      "date": "2014-04-03",
+      "ratio": 0.5848,
+      "chinext": 1326.18,
+      "dividend": 2267.89
+    },
+    {
+      "date": "2014-04-04",
+      "ratio": 0.59,
+      "chinext": 1346.74,
+      "dividend": 2282.76
+    },
+    {
+      "date": "2014-04-08",
+      "ratio": 0.5831,
+      "chinext": 1351.18,
+      "dividend": 2317.36
+    },
+    {
+      "date": "2014-04-09",
+      "ratio": 0.5888,
+      "chinext": 1370.46,
+      "dividend": 2327.57
+    },
+    {
+      "date": "2014-04-10",
+      "ratio": 0.5861,
+      "chinext": 1381.14,
+      "dividend": 2356.33
+    },
+    {
+      "date": "2014-04-11",
+      "ratio": 0.579,
+      "chinext": 1363.9,
+      "dividend": 2355.59
+    },
+    {
+      "date": "2014-04-14",
+      "ratio": 0.5808,
+      "chinext": 1372.73,
+      "dividend": 2363.55
+    },
+    {
+      "date": "2014-04-15",
+      "ratio": 0.5901,
+      "chinext": 1369.89,
+      "dividend": 2321.47
+    },
+    {
+      "date": "2014-04-16",
+      "ratio": 0.5855,
+      "chinext": 1359.3,
+      "dividend": 2321.45
+    },
+    {
+      "date": "2014-04-17",
+      "ratio": 0.5906,
+      "chinext": 1367.59,
+      "dividend": 2315.49
+    },
+    {
+      "date": "2014-04-18",
+      "ratio": 0.5949,
+      "chinext": 1377.42,
+      "dividend": 2315.23
+    },
+    {
+      "date": "2014-04-21",
+      "ratio": 0.5995,
+      "chinext": 1363.85,
+      "dividend": 2274.79
+    },
+    {
+      "date": "2014-04-22",
+      "ratio": 0.5881,
+      "chinext": 1336.19,
+      "dividend": 2272.02
+    },
+    {
+      "date": "2014-04-23",
+      "ratio": 0.5863,
+      "chinext": 1324.82,
+      "dividend": 2259.54
+    },
+    {
+      "date": "2014-04-24",
+      "ratio": 0.5854,
+      "chinext": 1319.51,
+      "dividend": 2253.87
+    },
+    {
+      "date": "2014-04-25",
+      "ratio": 0.5818,
+      "chinext": 1291.9,
+      "dividend": 2220.52
+    },
+    {
+      "date": "2014-04-28",
+      "ratio": 0.5769,
+      "chinext": 1257.26,
+      "dividend": 2179.49
+    },
+    {
+      "date": "2014-04-29",
+      "ratio": 0.5745,
+      "chinext": 1266.54,
+      "dividend": 2204.48
+    },
+    {
+      "date": "2014-04-30",
+      "ratio": 0.5793,
+      "chinext": 1283.21,
+      "dividend": 2215.1
+    },
+    {
+      "date": "2014-05-05",
+      "ratio": 0.5867,
+      "chinext": 1302.15,
+      "dividend": 2219.36
+    },
+    {
+      "date": "2014-05-06",
+      "ratio": 0.5922,
+      "chinext": 1316.86,
+      "dividend": 2223.85
+    },
+    {
+      "date": "2014-05-07",
+      "ratio": 0.5873,
+      "chinext": 1290.03,
+      "dividend": 2196.71
+    },
+    {
+      "date": "2014-05-08",
+      "ratio": 0.5829,
+      "chinext": 1279.84,
+      "dividend": 2195.76
+    },
+    {
+      "date": "2014-05-09",
+      "ratio": 0.5759,
+      "chinext": 1258.58,
+      "dividend": 2185.54
+    },
+    {
+      "date": "2014-05-12",
+      "ratio": 0.5699,
+      "chinext": 1278.28,
+      "dividend": 2243.14
+    },
+    {
+      "date": "2014-05-13",
+      "ratio": 0.57,
+      "chinext": 1276.24,
+      "dividend": 2239.21
+    },
+    {
+      "date": "2014-05-14",
+      "ratio": 0.5721,
+      "chinext": 1278.66,
+      "dividend": 2235.18
+    },
+    {
+      "date": "2014-05-15",
+      "ratio": 0.5695,
+      "chinext": 1253.88,
+      "dividend": 2201.86
+    },
+    {
+      "date": "2014-05-16",
+      "ratio": 0.5583,
+      "chinext": 1226.47,
+      "dividend": 2196.81
+    },
+    {
+      "date": "2014-05-19",
+      "ratio": 0.5649,
+      "chinext": 1228.37,
+      "dividend": 2174.46
+    },
+    {
+      "date": "2014-05-20",
+      "ratio": 0.5725,
+      "chinext": 1244.65,
+      "dividend": 2174.07
+    },
+    {
+      "date": "2014-05-21",
+      "ratio": 0.5734,
+      "chinext": 1257.8,
+      "dividend": 2193.58
+    },
+    {
+      "date": "2014-05-22",
+      "ratio": 0.581,
+      "chinext": 1269.51,
+      "dividend": 2185.12
+    },
+    {
+      "date": "2014-05-23",
+      "ratio": 0.5894,
+      "chinext": 1296.0,
+      "dividend": 2198.75
+    },
+    {
+      "date": "2014-05-26",
+      "ratio": 0.5954,
+      "chinext": 1320.76,
+      "dividend": 2218.11
+    },
+    {
+      "date": "2014-05-27",
+      "ratio": 0.5908,
+      "chinext": 1306.28,
+      "dividend": 2210.85
+    },
+    {
+      "date": "2014-05-28",
+      "ratio": 0.6018,
+      "chinext": 1338.97,
+      "dividend": 2225.1
+    },
+    {
+      "date": "2014-05-29",
+      "ratio": 0.596,
+      "chinext": 1314.21,
+      "dividend": 2205.06
+    },
+    {
+      "date": "2014-05-30",
+      "ratio": 0.5978,
+      "chinext": 1318.13,
+      "dividend": 2204.89
+    },
+    {
+      "date": "2014-06-03",
+      "ratio": 0.6003,
+      "chinext": 1319.62,
+      "dividend": 2198.35
+    },
+    {
+      "date": "2014-06-04",
+      "ratio": 0.6076,
+      "chinext": 1321.72,
+      "dividend": 2175.24
+    },
+    {
+      "date": "2014-06-05",
+      "ratio": 0.6177,
+      "chinext": 1355.48,
+      "dividend": 2194.35
+    },
+    {
+      "date": "2014-06-06",
+      "ratio": 0.6191,
+      "chinext": 1350.45,
+      "dividend": 2181.37
+    },
+    {
+      "date": "2014-06-09",
+      "ratio": 0.6101,
+      "chinext": 1326.68,
+      "dividend": 2174.48
+    },
+    {
+      "date": "2014-06-10",
+      "ratio": 0.6149,
+      "chinext": 1353.87,
+      "dividend": 2201.62
+    },
+    {
+      "date": "2014-06-11",
+      "ratio": 0.619,
+      "chinext": 1367.39,
+      "dividend": 2209.18
+    },
+    {
+      "date": "2014-06-12",
+      "ratio": 0.6203,
+      "chinext": 1363.74,
+      "dividend": 2198.45
+    },
+    {
+      "date": "2014-06-13",
+      "ratio": 0.6211,
+      "chinext": 1382.73,
+      "dividend": 2226.23
+    },
+    {
+      "date": "2014-06-16",
+      "ratio": 0.6206,
+      "chinext": 1395.61,
+      "dividend": 2248.84
+    },
+    {
+      "date": "2014-06-17",
+      "ratio": 0.6177,
+      "chinext": 1377.43,
+      "dividend": 2230.04
+    },
+    {
+      "date": "2014-06-18",
+      "ratio": 0.6176,
+      "chinext": 1363.99,
+      "dividend": 2208.66
+    },
+    {
+      "date": "2014-06-19",
+      "ratio": 0.6105,
+      "chinext": 1320.66,
+      "dividend": 2163.07
+    },
+    {
+      "date": "2014-06-20",
+      "ratio": 0.6118,
+      "chinext": 1333.98,
+      "dividend": 2180.25
+    },
+    {
+      "date": "2014-06-23",
+      "ratio": 0.6246,
+      "chinext": 1361.28,
+      "dividend": 2179.51
+    },
+    {
+      "date": "2014-06-24",
+      "ratio": 0.6254,
+      "chinext": 1369.44,
+      "dividend": 2189.65
+    },
+    {
+      "date": "2014-06-25",
+      "ratio": 0.6227,
+      "chinext": 1358.71,
+      "dividend": 2182.07
+    },
+    {
+      "date": "2014-06-26",
+      "ratio": 0.6294,
+      "chinext": 1386.27,
+      "dividend": 2202.67
+    },
+    {
+      "date": "2014-06-27",
+      "ratio": 0.6276,
+      "chinext": 1388.81,
+      "dividend": 2212.92
+    },
+    {
+      "date": "2014-06-30",
+      "ratio": 0.6293,
+      "chinext": 1404.71,
+      "dividend": 2232.08
+    },
+    {
+      "date": "2014-07-01",
+      "ratio": 0.6307,
+      "chinext": 1411.74,
+      "dividend": 2238.46
+    },
+    {
+      "date": "2014-07-02",
+      "ratio": 0.6288,
+      "chinext": 1419.94,
+      "dividend": 2258.17
+    },
+    {
+      "date": "2014-07-03",
+      "ratio": 0.6253,
+      "chinext": 1422.6,
+      "dividend": 2275.2
+    },
+    {
+      "date": "2014-07-04",
+      "ratio": 0.6226,
+      "chinext": 1411.64,
+      "dividend": 2267.22
+    },
+    {
+      "date": "2014-07-07",
+      "ratio": 0.6149,
+      "chinext": 1393.89,
+      "dividend": 2266.72
+    },
+    {
+      "date": "2014-07-08",
+      "ratio": 0.6194,
+      "chinext": 1410.72,
+      "dividend": 2277.43
+    },
+    {
+      "date": "2014-07-09",
+      "ratio": 0.6172,
+      "chinext": 1384.58,
+      "dividend": 2243.19
+    },
+    {
+      "date": "2014-07-10",
+      "ratio": 0.6093,
+      "chinext": 1363.88,
+      "dividend": 2238.56
+    },
+    {
+      "date": "2014-07-11",
+      "ratio": 0.6049,
+      "chinext": 1359.34,
+      "dividend": 2247.16
+    },
+    {
+      "date": "2014-07-14",
+      "ratio": 0.5985,
+      "chinext": 1367.07,
+      "dividend": 2284.32
+    },
+    {
+      "date": "2014-07-15",
+      "ratio": 0.5861,
+      "chinext": 1341.27,
+      "dividend": 2288.45
+    },
+    {
+      "date": "2014-07-16",
+      "ratio": 0.5788,
+      "chinext": 1318.61,
+      "dividend": 2278.06
+    },
+    {
+      "date": "2014-07-17",
+      "ratio": 0.5796,
+      "chinext": 1312.81,
+      "dividend": 2264.92
+    },
+    {
+      "date": "2014-07-18",
+      "ratio": 0.5747,
+      "chinext": 1305.92,
+      "dividend": 2272.45
+    },
+    {
+      "date": "2014-07-21",
+      "ratio": 0.5769,
+      "chinext": 1306.96,
+      "dividend": 2265.66
+    },
+    {
+      "date": "2014-07-22",
+      "ratio": 0.5766,
+      "chinext": 1329.35,
+      "dividend": 2305.31
+    },
+    {
+      "date": "2014-07-23",
+      "ratio": 0.5611,
+      "chinext": 1293.09,
+      "dividend": 2304.73
+    },
+    {
+      "date": "2014-07-24",
+      "ratio": 0.5455,
+      "chinext": 1271.88,
+      "dividend": 2331.59
+    },
+    {
+      "date": "2014-07-25",
+      "ratio": 0.5453,
+      "chinext": 1285.77,
+      "dividend": 2358.1
+    },
+    {
+      "date": "2014-07-28",
+      "ratio": 0.5456,
+      "chinext": 1314.53,
+      "dividend": 2409.37
+    },
+    {
+      "date": "2014-07-29",
+      "ratio": 0.5472,
+      "chinext": 1331.76,
+      "dividend": 2433.99
+    },
+    {
+      "date": "2014-07-30",
+      "ratio": 0.554,
+      "chinext": 1342.74,
+      "dividend": 2423.9
+    },
+    {
+      "date": "2014-07-31",
+      "ratio": 0.5487,
+      "chinext": 1344.54,
+      "dividend": 2450.5
+    },
+    {
+      "date": "2014-08-01",
+      "ratio": 0.5451,
+      "chinext": 1325.94,
+      "dividend": 2432.27
+    },
+    {
+      "date": "2014-08-04",
+      "ratio": 0.538,
+      "chinext": 1329.82,
+      "dividend": 2471.8
+    },
+    {
+      "date": "2014-08-05",
+      "ratio": 0.5506,
+      "chinext": 1360.69,
+      "dividend": 2471.4
+    },
+    {
+      "date": "2014-08-06",
+      "ratio": 0.551,
+      "chinext": 1365.74,
+      "dividend": 2478.58
+    },
+    {
+      "date": "2014-08-07",
+      "ratio": 0.5565,
+      "chinext": 1362.03,
+      "dividend": 2447.29
+    },
+    {
+      "date": "2014-08-08",
+      "ratio": 0.5616,
+      "chinext": 1377.44,
+      "dividend": 2452.53
+    },
+    {
+      "date": "2014-08-11",
+      "ratio": 0.5601,
+      "chinext": 1397.78,
+      "dividend": 2495.58
+    },
+    {
+      "date": "2014-08-12",
+      "ratio": 0.559,
+      "chinext": 1396.44,
+      "dividend": 2498.14
+    },
+    {
+      "date": "2014-08-13",
+      "ratio": 0.553,
+      "chinext": 1384.31,
+      "dividend": 2503.21
+    },
+    {
+      "date": "2014-08-14",
+      "ratio": 0.5558,
+      "chinext": 1380.3,
+      "dividend": 2483.61
+    },
+    {
+      "date": "2014-08-15",
+      "ratio": 0.5566,
+      "chinext": 1392.45,
+      "dividend": 2501.63
+    },
+    {
+      "date": "2014-08-18",
+      "ratio": 0.5668,
+      "chinext": 1428.74,
+      "dividend": 2520.74
+    },
+    {
+      "date": "2014-08-19",
+      "ratio": 0.57,
+      "chinext": 1436.4,
+      "dividend": 2520.11
+    },
+    {
+      "date": "2014-08-20",
+      "ratio": 0.5697,
+      "chinext": 1427.4,
+      "dividend": 2505.37
+    },
+    {
+      "date": "2014-08-21",
+      "ratio": 0.5828,
+      "chinext": 1447.88,
+      "dividend": 2484.31
+    },
+    {
+      "date": "2014-08-22",
+      "ratio": 0.5859,
+      "chinext": 1461.72,
+      "dividend": 2494.78
+    },
+    {
+      "date": "2014-08-25",
+      "ratio": 0.5827,
+      "chinext": 1443.81,
+      "dividend": 2477.73
+    },
+    {
+      "date": "2014-08-26",
+      "ratio": 0.5751,
+      "chinext": 1411.15,
+      "dividend": 2453.83
+    },
+    {
+      "date": "2014-08-27",
+      "ratio": 0.5785,
+      "chinext": 1420.54,
+      "dividend": 2455.42
+    },
+    {
+      "date": "2014-08-28",
+      "ratio": 0.5773,
+      "chinext": 1403.8,
+      "dividend": 2431.74
+    },
+    {
+      "date": "2014-08-29",
+      "ratio": 0.5784,
+      "chinext": 1424.47,
+      "dividend": 2462.89
+    },
+    {
+      "date": "2014-09-01",
+      "ratio": 0.5836,
+      "chinext": 1452.84,
+      "dividend": 2489.37
+    },
+    {
+      "date": "2014-09-02",
+      "ratio": 0.5808,
+      "chinext": 1465.03,
+      "dividend": 2522.32
+    },
+    {
+      "date": "2014-09-03",
+      "ratio": 0.5815,
+      "chinext": 1477.67,
+      "dividend": 2541.32
+    },
+    {
+      "date": "2014-09-04",
+      "ratio": 0.5848,
+      "chinext": 1495.51,
+      "dividend": 2557.47
+    },
+    {
+      "date": "2014-09-05",
+      "ratio": 0.5781,
+      "chinext": 1489.83,
+      "dividend": 2576.95
+    },
+    {
+      "date": "2014-09-09",
+      "ratio": 0.5781,
+      "chinext": 1494.02,
+      "dividend": 2584.56
+    },
+    {
+      "date": "2014-09-10",
+      "ratio": 0.584,
+      "chinext": 1504.91,
+      "dividend": 2576.88
+    },
+    {
+      "date": "2014-09-11",
+      "ratio": 0.589,
+      "chinext": 1513.01,
+      "dividend": 2568.82
+    },
+    {
+      "date": "2014-09-12",
+      "ratio": 0.5895,
+      "chinext": 1524.12,
+      "dividend": 2585.52
+    },
+    {
+      "date": "2014-09-15",
+      "ratio": 0.5873,
+      "chinext": 1526.14,
+      "dividend": 2598.57
+    },
+    {
+      "date": "2014-09-16",
+      "ratio": 0.5794,
+      "chinext": 1473.13,
+      "dividend": 2542.44
+    },
+    {
+      "date": "2014-09-17",
+      "ratio": 0.58,
+      "chinext": 1479.12,
+      "dividend": 2550.39
+    },
+    {
+      "date": "2014-09-18",
+      "ratio": 0.5815,
+      "chinext": 1490.79,
+      "dividend": 2563.51
+    },
+    {
+      "date": "2014-09-19",
+      "ratio": 0.5802,
+      "chinext": 1499.12,
+      "dividend": 2583.85
+    },
+    {
+      "date": "2014-09-22",
+      "ratio": 0.583,
+      "chinext": 1483.35,
+      "dividend": 2544.38
+    },
+    {
+      "date": "2014-09-23",
+      "ratio": 0.585,
+      "chinext": 1500.99,
+      "dividend": 2565.65
+    },
+    {
+      "date": "2014-09-24",
+      "ratio": 0.5827,
+      "chinext": 1517.42,
+      "dividend": 2603.93
+    },
+    {
+      "date": "2014-09-25",
+      "ratio": 0.5796,
+      "chinext": 1508.42,
+      "dividend": 2602.48
+    },
+    {
+      "date": "2014-09-26",
+      "ratio": 0.58,
+      "chinext": 1511.36,
+      "dividend": 2605.59
+    },
+    {
+      "date": "2014-09-29",
+      "ratio": 0.5811,
+      "chinext": 1526.18,
+      "dividend": 2626.36
+    },
+    {
+      "date": "2014-09-30",
+      "ratio": 0.5861,
+      "chinext": 1540.87,
+      "dividend": 2629.08
+    },
+    {
+      "date": "2014-10-08",
+      "ratio": 0.5881,
+      "chinext": 1557.57,
+      "dividend": 2648.56
+    },
+    {
+      "date": "2014-10-09",
+      "ratio": 0.5868,
+      "chinext": 1561.17,
+      "dividend": 2660.51
+    },
+    {
+      "date": "2014-10-10",
+      "ratio": 0.5876,
+      "chinext": 1554.22,
+      "dividend": 2644.9
+    },
+    {
+      "date": "2014-10-13",
+      "ratio": 0.5883,
+      "chinext": 1548.33,
+      "dividend": 2631.66
+    },
+    {
+      "date": "2014-10-14",
+      "ratio": 0.5866,
+      "chinext": 1539.12,
+      "dividend": 2623.58
+    },
+    {
+      "date": "2014-10-15",
+      "ratio": 0.5852,
+      "chinext": 1545.62,
+      "dividend": 2641.37
+    },
+    {
+      "date": "2014-10-16",
+      "ratio": 0.5835,
+      "chinext": 1526.56,
+      "dividend": 2616.31
+    },
+    {
+      "date": "2014-10-17",
+      "ratio": 0.5816,
+      "chinext": 1511.05,
+      "dividend": 2597.97
+    },
+    {
+      "date": "2014-10-20",
+      "ratio": 0.5847,
+      "chinext": 1532.38,
+      "dividend": 2620.93
+    },
+    {
+      "date": "2014-10-21",
+      "ratio": 0.5841,
+      "chinext": 1517.48,
+      "dividend": 2598.18
+    },
+    {
+      "date": "2014-10-22",
+      "ratio": 0.584,
+      "chinext": 1504.55,
+      "dividend": 2576.21
+    },
+    {
+      "date": "2014-10-23",
+      "ratio": 0.5804,
+      "chinext": 1477.84,
+      "dividend": 2546.07
+    },
+    {
+      "date": "2014-10-24",
+      "ratio": 0.58,
+      "chinext": 1477.59,
+      "dividend": 2547.77
+    },
+    {
+      "date": "2014-10-27",
+      "ratio": 0.587,
+      "chinext": 1492.01,
+      "dividend": 2541.56
+    },
+    {
+      "date": "2014-10-28",
+      "ratio": 0.5856,
+      "chinext": 1522.05,
+      "dividend": 2599.27
+    },
+    {
+      "date": "2014-10-29",
+      "ratio": 0.5784,
+      "chinext": 1530.08,
+      "dividend": 2645.35
+    },
+    {
+      "date": "2014-10-30",
+      "ratio": 0.5717,
+      "chinext": 1525.77,
+      "dividend": 2668.81
+    },
+    {
+      "date": "2014-10-31",
+      "ratio": 0.5622,
+      "chinext": 1513.27,
+      "dividend": 2691.59
+    },
+    {
+      "date": "2014-11-03",
+      "ratio": 0.5637,
+      "chinext": 1529.89,
+      "dividend": 2714.2
+    },
+    {
+      "date": "2014-11-04",
+      "ratio": 0.559,
+      "chinext": 1516.4,
+      "dividend": 2712.74
+    },
+    {
+      "date": "2014-11-05",
+      "ratio": 0.559,
+      "chinext": 1512.49,
+      "dividend": 2705.87
+    },
+    {
+      "date": "2014-11-06",
+      "ratio": 0.5633,
+      "chinext": 1532.52,
+      "dividend": 2720.47
+    },
+    {
+      "date": "2014-11-07",
+      "ratio": 0.5623,
+      "chinext": 1522.62,
+      "dividend": 2707.88
+    },
+    {
+      "date": "2014-11-10",
+      "ratio": 0.5472,
+      "chinext": 1514.82,
+      "dividend": 2768.25
+    },
+    {
+      "date": "2014-11-11",
+      "ratio": 0.5363,
+      "chinext": 1461.51,
+      "dividend": 2725.34
+    },
+    {
+      "date": "2014-11-12",
+      "ratio": 0.5331,
+      "chinext": 1475.75,
+      "dividend": 2768.28
+    },
+    {
+      "date": "2014-11-13",
+      "ratio": 0.5241,
+      "chinext": 1442.86,
+      "dividend": 2753.06
+    },
+    {
+      "date": "2014-11-14",
+      "ratio": 0.5258,
+      "chinext": 1441.21,
+      "dividend": 2741.09
+    },
+    {
+      "date": "2014-11-17",
+      "ratio": 0.5354,
+      "chinext": 1471.69,
+      "dividend": 2748.56
+    },
+    {
+      "date": "2014-11-18",
+      "ratio": 0.5414,
+      "chinext": 1481.86,
+      "dividend": 2736.91
+    },
+    {
+      "date": "2014-11-19",
+      "ratio": 0.5524,
+      "chinext": 1505.55,
+      "dividend": 2725.61
+    },
+    {
+      "date": "2014-11-20",
+      "ratio": 0.5481,
+      "chinext": 1494.59,
+      "dividend": 2726.81
+    },
+    {
+      "date": "2014-11-21",
+      "ratio": 0.5446,
+      "chinext": 1504.83,
+      "dividend": 2763.07
+    },
+    {
+      "date": "2014-11-24",
+      "ratio": 0.5364,
+      "chinext": 1507.81,
+      "dividend": 2810.73
+    },
+    {
+      "date": "2014-11-25",
+      "ratio": 0.5391,
+      "chinext": 1541.92,
+      "dividend": 2860.05
+    },
+    {
+      "date": "2014-11-26",
+      "ratio": 0.5397,
+      "chinext": 1554.22,
+      "dividend": 2879.97
+    },
+    {
+      "date": "2014-11-27",
+      "ratio": 0.541,
+      "chinext": 1563.41,
+      "dividend": 2889.64
+    },
+    {
+      "date": "2014-11-28",
+      "ratio": 0.5373,
+      "chinext": 1570.85,
+      "dividend": 2923.64
+    },
+    {
+      "date": "2014-12-01",
+      "ratio": 0.5289,
+      "chinext": 1552.31,
+      "dividend": 2935.2
+    },
+    {
+      "date": "2014-12-02",
+      "ratio": 0.5219,
+      "chinext": 1565.42,
+      "dividend": 2999.53
+    },
+    {
+      "date": "2014-12-03",
+      "ratio": 0.5292,
+      "chinext": 1604.45,
+      "dividend": 3032.12
+    },
+    {
+      "date": "2014-12-04",
+      "ratio": 0.5175,
+      "chinext": 1621.84,
+      "dividend": 3133.92
+    },
+    {
+      "date": "2014-12-05",
+      "ratio": 0.5088,
+      "chinext": 1581.91,
+      "dividend": 3109.27
+    },
+    {
+      "date": "2014-12-08",
+      "ratio": 0.4915,
+      "chinext": 1567.16,
+      "dividend": 3188.33
+    },
+    {
+      "date": "2014-12-09",
+      "ratio": 0.4902,
+      "chinext": 1504.62,
+      "dividend": 3069.59
+    },
+    {
+      "date": "2014-12-10",
+      "ratio": 0.4915,
+      "chinext": 1572.69,
+      "dividend": 3199.79
+    },
+    {
+      "date": "2014-12-11",
+      "ratio": 0.4922,
+      "chinext": 1587.67,
+      "dividend": 3225.46
+    },
+    {
+      "date": "2014-12-12",
+      "ratio": 0.5008,
+      "chinext": 1623.57,
+      "dividend": 3241.77
+    },
+    {
+      "date": "2014-12-15",
+      "ratio": 0.5071,
+      "chinext": 1657.5,
+      "dividend": 3268.46
+    },
+    {
+      "date": "2014-12-16",
+      "ratio": 0.497,
+      "chinext": 1649.58,
+      "dividend": 3318.86
+    },
+    {
+      "date": "2014-12-17",
+      "ratio": 0.4913,
+      "chinext": 1644.21,
+      "dividend": 3346.58
+    },
+    {
+      "date": "2014-12-18",
+      "ratio": 0.488,
+      "chinext": 1634.05,
+      "dividend": 3348.44
+    },
+    {
+      "date": "2014-12-19",
+      "ratio": 0.4664,
+      "chinext": 1596.81,
+      "dividend": 3423.91
+    },
+    {
+      "date": "2014-12-22",
+      "ratio": 0.4414,
+      "chinext": 1517.93,
+      "dividend": 3439.21
+    },
+    {
+      "date": "2014-12-23",
+      "ratio": 0.4493,
+      "chinext": 1496.53,
+      "dividend": 3330.99
+    },
+    {
+      "date": "2014-12-24",
+      "ratio": 0.464,
+      "chinext": 1519.8,
+      "dividend": 3275.2
+    },
+    {
+      "date": "2014-12-25",
+      "ratio": 0.4533,
+      "chinext": 1529.47,
+      "dividend": 3373.73
+    },
+    {
+      "date": "2014-12-26",
+      "ratio": 0.4474,
+      "chinext": 1536.08,
+      "dividend": 3433.28
+    },
+    {
+      "date": "2014-12-29",
+      "ratio": 0.4385,
+      "chinext": 1499.4,
+      "dividend": 3419.23
+    },
+    {
+      "date": "2014-12-30",
+      "ratio": 0.4316,
+      "chinext": 1460.11,
+      "dividend": 3383.05
+    },
+    {
+      "date": "2014-12-31",
+      "ratio": 0.4267,
+      "chinext": 1471.76,
+      "dividend": 3448.8
     },
     {
       "date": "2018-06-08",
@@ -15641,6 +15635,12 @@
       "ratio": 0.5934,
       "chinext": 3393.43,
       "dividend": 5719.05
+    },
+    {
+      "date": "2026-09-02",
+      "ratio": 0.5878,
+      "chinext": 3312.24,
+      "dividend": 5634.58
     }
   ]
 }
