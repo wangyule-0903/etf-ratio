@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-25T23:37:38+08:00",
-  "asOf": "2026-09-24",
+  "updatedAt": "2026-09-29T00:16:22+08:00",
+  "asOf": "2026-09-28",
   "pair": {
     "numerator": {
       "code": "399006",
@@ -15,15 +15,15 @@
     "formula": "创业板指数 ÷ 中证红利"
   },
   "latest": {
-    "ratio": 0.6013,
-    "chinext": 3288.95,
-    "dividend": 5469.4,
-    "percentile": 86.9
+    "ratio": 0.5772,
+    "chinext": 3139.82,
+    "dividend": 5439.6,
+    "percentile": 78.3
   },
   "stats": {
-    "days": 3964,
+    "days": 3965,
     "start": "2010-06-02",
-    "end": "2026-09-24",
+    "end": "2026-09-28",
     "min": 0.2525,
     "max": 0.8647,
     "median": 0.4414,
@@ -35,19 +35,13 @@
     "high": 80
   },
   "verdict": {
-    "label": "创业板相对高估 · 中证红利相对低估",
-    "cheap": "中证红利",
-    "expensive": "创业板指数",
-    "bias": "dividend",
-    "hint": "比值处于历史高位，风格上更偏向中证红利。"
+    "label": "相对均衡",
+    "cheap": null,
+    "expensive": null,
+    "bias": "neutral",
+    "hint": "比值处于中间区间，可维持均衡配置或观望。"
   },
   "history": [
-    {
-      "date": "2016-01-14",
-      "ratio": 0.5779,
-      "chinext": 2175.01,
-      "dividend": 3763.71
-    },
     {
       "date": "2016-01-15",
       "ratio": 0.5825,
@@ -15641,6 +15635,12 @@
       "ratio": 0.6013,
       "chinext": 3288.95,
       "dividend": 5469.4
+    },
+    {
+      "date": "2026-09-28",
+      "ratio": 0.5772,
+      "chinext": 3139.82,
+      "dividend": 5439.6
     }
   ]
 }
